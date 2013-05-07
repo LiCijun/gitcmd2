@@ -551,5 +551,6 @@ git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:l
 cd gitcmd
 git remote add VM  git@lcj.aihlp.com:li/gitcmd.git
 git remote add origin  git@li.aihlp.com:li/gitcmd.git
+git remote add github  git@github.com:LiCijun/gitcmd.git
 @pause
 
