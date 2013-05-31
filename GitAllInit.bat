@@ -552,5 +552,12 @@ cd gitcmd
 git remote add VM  git@lcj.aihlp.com:li/gitcmd.git
 git remote add origin  git@li.aihlp.com:li/gitcmd.git
 git remote add github  git@github.com:LiCijun/gitcmd.git
+
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/p35.git
+cd p35
+git remote add VM  git@lcj.aihlp.com:li/p35.git
+git remote add origin  git@li.aihlp.com:li/p35.git
+git remote add KMT  gitolite@kmt.aihlp.com:p35.git
 @pause
 
