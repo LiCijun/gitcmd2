@@ -535,8 +535,8 @@ git remote add github  git@github.com:LiCijun/certification.git
 
 
 cd %~dp0..\
-cd gitolite-admin-KMT
 git.exe clone --no-checkout --recursive       --progress -v   gitolite@kmt.aihlp.com:gitolite-admin.git gitolite-admin-KMT
+cd gitolite-admin-KMT
 git.exe remote rename origin KMT
 
 cd %~dp0..\
