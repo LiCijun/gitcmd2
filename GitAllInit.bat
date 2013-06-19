@@ -555,5 +555,12 @@ git remote add VM  git@lcj.aihlp.com:li/p35.git
 git remote add origin  git@li.aihlp.com:li/p35.git
 git remote add KMT  gitolite@kmt.aihlp.com:p35.git
 git remote remove KMT
+
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/WinCEUILib.git
+cd WinCEUILib
+git remote add VM  git@lcj.aihlp.com:li/WinCEUILib.git
+git remote add origin  git@li.aihlp.com:li/WinCEUILib.git
+git remote add KMT  gitolite@kmt.aihlp.com:WinCEUILib.git 
 @pause
 
