@@ -251,6 +251,7 @@ git remote add VM  git@lcj.aihlp.com:li/tools.git
 git remote add KMT  gitolite@kmt.aihlp.com:tools.git
 git remote add github  git@github.com:LiCijun/tools.git
 git remote remove KMT
+git remote remove github
 
 cd %~dp0..\
 git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/concentrator.git
