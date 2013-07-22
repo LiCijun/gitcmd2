@@ -569,5 +569,12 @@ git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:l
 cd InstallShield
 git remote add VM  git@lcj.aihlp.com:li/InstallShield.git
 git remote add origin  git@li.aihlp.com:li/InstallShield.git
+
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/xiamen.git
+cd xiamen
+git remote add VM  git@lcj.aihlp.com:li/xiamen.git
+git remote add origin  git@li.aihlp.com:li/xiamen.git
+git remote add KMT  gitolite@kmt.aihlp.com:xiamen.git 
 @pause
 
