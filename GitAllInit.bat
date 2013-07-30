@@ -576,5 +576,10 @@ cd xiamen
 git remote add VM  git@lcj.aihlp.com:li/xiamen.git
 git remote add origin  git@li.aihlp.com:li/xiamen.git
 git remote add KMT  gitolite@kmt.aihlp.com:xiamen.git 
-@pause
+
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/readmeter.git
+cd readmeter
+git remote add VM  git@lcj.aihlp.com:li/readmeter.git
+git remote add origin  git@li.aihlp.com:li/readmeter.git
 
