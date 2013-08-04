@@ -583,3 +583,12 @@ cd readmeter
 git remote add VM  git@lcj.aihlp.com:li/readmeter.git
 git remote add origin  git@li.aihlp.com:li/readmeter.git
 
+
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/solution.git
+cd solution
+git remote add VM  git@lcj.aihlp.com:li/solution.git
+git remote add origin  git@li.aihlp.com:li/solution.git
+git remote add KMT  gitolite@kmt.aihlp.com:solution.git 
+
+
