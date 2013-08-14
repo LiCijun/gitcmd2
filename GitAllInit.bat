@@ -592,3 +592,8 @@ git remote add origin  git@li.aihlp.com:li/solution.git
 git remote add KMT  gitolite@kmt.aihlp.com:solution.git 
 
 
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/vc6.git
+cd vc6
+git remote add VM  git@lcj.aihlp.com:li/vc6.git
+git remote add origin  git@li.aihlp.com:li/vc6.git
