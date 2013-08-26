@@ -153,11 +153,6 @@ cd liwince
 git remote add VM  git@lcj.aihlp.com:liwince.git
 
 cd %~dp0..\
-git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:maxthon.git
-cd maxthon
-git remote add VM  git@lcj.aihlp.com:maxthon.git
-
-cd %~dp0..\
 git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:mercurial.git
 cd mercurial
 git remote add VM  git@lcj.aihlp.com:mercurial.git
@@ -419,10 +414,6 @@ git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:l
 cd vmloader
 git remote add VM  git@lcj.aihlp.com:li/vmloader.git
 
-cd %~dp0..\
-git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/chrome.git
-cd chrome
-git remote add VM  git@lcj.aihlp.com:li/chrome.git
 
 cd %~dp0..\
 git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/fss2release.git
@@ -597,3 +588,12 @@ git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:l
 cd vc6
 git remote add VM  git@lcj.aihlp.com:li/vc6.git
 git remote add origin  git@li.aihlp.com:li/vc6.git
+
+
+
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/vc6.git
+cd xunjian
+git remote add VM  git@lcj.aihlp.com:li/xunjian.git
+git remote add origin  git@li.aihlp.com:li/xunjian.git
+git remote add KMT  gitolite@kmt.aihlp.com:xunjian.git 
