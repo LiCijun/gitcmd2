@@ -597,3 +597,28 @@ cd xunjian
 git remote add VM  git@lcj.aihlp.com:li/xunjian.git
 git remote add origin  git@li.aihlp.com:li/xunjian.git
 git remote add KMT  gitolite@kmt.aihlp.com:xunjian.git 
+
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/PosD.git
+cd PosD
+git remote add VM  git@lcj.aihlp.com:li/PosD.git
+git remote add origin  git@li.aihlp.com:li/PosD.git
+git remote add KMT  gitolite@kmt.aihlp.com:PosD.git 
+
+
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/KMJXC.git
+cd KMJXC
+git remote add VM  git@lcj.aihlp.com:li/KMJXC.git
+git remote add origin  git@li.aihlp.com:li/KMJXC.git
+git remote add KMT  gitolite@kmt.aihlp.com:KMJXC.git 
+
+
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/HHUWeb.git
+cd HHUWeb
+git remote add VM  git@lcj.aihlp.com:li/HHUWeb.git
+git remote add origin  git@li.aihlp.com:li/HHUWeb.git
+git remote add KMT  gitolite@kmt.aihlp.com:HHUWeb.git 
+
+
