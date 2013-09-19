@@ -622,3 +622,9 @@ git remote add origin  git@li.aihlp.com:li/HHUWeb.git
 git remote add KMT  gitolite@kmt.aihlp.com:HHUWeb.git 
 
 
+cd %~dp0..\
+git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:li/oa.git
+cd oa
+git remote add VM  git@lcj.aihlp.com:li/oa.git
+git remote add origin  git@li.aihlp.com:li/oa.git 
+
