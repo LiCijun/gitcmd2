@@ -635,4 +635,11 @@ cd oa
 git remote add VM  git@lcj.aihlp.com:li/oa.git
 git remote add origin  git@li.aihlp.com:li/oa.git 
 
+cd %~dp0..\
+git.exe clone  --recursive       --progress -v   git@li.aihlp.com:li/ibd70test.git
+cd ibd70test
+git remote add VM  git@lcj.aihlp.com:li/ibd70test.git
+git remote add origin  git@li.aihlp.com:li/ibd70test.git
+git remote add KMT  gitolite@kmt.aihlp.com:ibd70test.git 
+
 
