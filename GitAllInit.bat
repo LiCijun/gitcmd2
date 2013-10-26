@@ -651,4 +651,9 @@ git remote add VM  git@lcj.aihlp.com:li/p31test.git
 git remote add origin  git@li.aihlp.com:li/p31test.git
 git remote add KMT  gitolite@kmt.aihlp.com:p31test.git 
 
-
+cd %~dp0..\
+git.exe clone  --recursive       --progress -v   git@li.aihlp.com:li/fm1701.git
+cd fm1701
+git remote add VM  git@lcj.aihlp.com:li/fm1701.git
+git remote add origin  git@li.aihlp.com:li/fm1701.git
+git remote add KMT  gitolite@kmt.aihlp.com:fm1701.git 
