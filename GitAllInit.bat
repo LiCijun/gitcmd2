@@ -31,11 +31,6 @@ git remote add VM  git@lcj.aihlp.com:demo.git
 git remote add KMT  gitolite@kmt.aihlp.com:demo.git
 
 cd %~dp0..\
-git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:dnspodclientlite.git
-cd dnspodclientlite
-git remote add VM  git@lcj.aihlp.com:dnspodclientlite.git
-
-cd %~dp0..\
 git.exe clone --no-checkout --recursive       --progress -v   git@li.aihlp.com:ebook.git
 cd ebook
 git remote add VM  git@lcj.aihlp.com:ebook.git
