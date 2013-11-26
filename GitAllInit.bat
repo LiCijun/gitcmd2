@@ -55,15 +55,6 @@ git.exe clone  --recursive       --progress -v   git@li.aihlp.com:example.git
 cd example
 git remote add VM  git@lcj.aihlp.com:example.git
 
-cd %~dp0..\
-git.exe clone  --recursive       --progress -v   git@li.aihlp.com:feeddemon.git
-cd feeddemon
-git remote add VM  git@lcj.aihlp.com:feeddemon.git
-
-cd %~dp0..\
-git.exe clone  --recursive       --progress -v   git@li.aihlp.com:fetion.git
-cd fetion
-git remote add VM  git@lcj.aihlp.com:fetion.git
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li.aihlp.com:fss.git
