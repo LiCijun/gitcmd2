@@ -512,7 +512,7 @@ git.exe clone  --recursive       --progress -v   gitolite@kmt.aihlp.com:gitolite
 cd gitolite-admin-KMT
 git.exe remote rename origin KMT
 git remote add VM  git@lcj.aihlp.com:li/gitolite-admin-KMT.git
-git remote add Li  git@li.aihlp.com:li/gitolite-admin-KMT.git
+git remote add origin  git@li.aihlp.com:li/gitolite-admin-KMT.git
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li.aihlp.com:li/u950.git
