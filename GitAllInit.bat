@@ -645,3 +645,18 @@ cd fm1701
 git remote add VM  git@lcj.aihlp.com:li/fm1701.git
 git remote add origin  git@li.aihlp.com:li/fm1701.git
 git remote add KMT  gitolite@kmt.aihlp.com:fm1701.git 
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/p35demo.git
+cd p35demo
+git remote add VM  git@lcj.aihlp.com:li/p35demo.git
+git remote add origin  git@li.aihlp.com:li/p35demo.git
+git remote add KMT  gitolite@kmt.aihlp.com:p35demo.git 
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/yanfaiso.git
+cd yanfaiso
+git remote add VM  git@lcj.aihlp.com:li/yanfaiso.git
+git remote add origin  git@li.aihlp.com:li/yanfaiso.git
+git remote add KMT  gitolite@kmt.aihlp.com:yanfaiso.git 
