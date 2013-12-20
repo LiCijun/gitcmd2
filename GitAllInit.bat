@@ -660,3 +660,18 @@ cd yanfaiso
 git remote add VM  git@lcj.aihlp.com:li/yanfaiso.git
 git remote add origin  git@li.aihlp.com:li/yanfaiso.git
 git remote add KMT  gitolite@kmt.aihlp.com:yanfaiso.git 
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/pmc.git
+cd pmc
+git remote add VM  git@lcj.aihlp.com:li/pmc.git
+git remote add origin  git@li.aihlp.com:li/pmc.git
+git remote add KMT  gitolite@kmt.aihlp.com:pmc.git 
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/systemos.git
+cd systemos
+git remote add VM  git@lcj.aihlp.com:li/systemos.git
+git remote add origin  git@li.aihlp.com:li/systemos.git
+git remote add KMT  gitolite@kmt.aihlp.com:systemos.git 
