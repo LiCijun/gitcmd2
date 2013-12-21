@@ -675,3 +675,11 @@ cd systemos
 git remote add VM  git@lcj.aihlp.com:li/systemos.git
 git remote add origin  git@li.aihlp.com:li/systemos.git
 git remote add KMT  gitolite@kmt.aihlp.com:systemos.git 
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/pmcm.git
+cd pmcm
+git remote add VM  git@lcj.aihlp.com:li/pmcm.git
+git remote add origin  git@li.aihlp.com:li/pmcm.git
+git remote add KMT  gitolite@kmt.aihlp.com:pmcm.git 
