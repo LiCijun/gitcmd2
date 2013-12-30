@@ -215,9 +215,10 @@ cd xian
 git remote add VM  git@lcj.aihlp.com:xian.git
 
 cd %~dp0..\
-git.exe clone  --recursive   --progress -v   git@li.aihlp.com:mobile.git
+git.exe clone  --recursive   --progress -v   git@li.aihlp.com:li/mobile.git
 cd mobile
-git remote add VM  git@lcj.aihlp.com:mobile.git
+git remote remove VM
+git remote add VM  git@lcj.aihlp.com:li/mobile.git
 git remote add origin  git@li.aihlp.com:li/mobile.git
 
 cd %~dp0..\
