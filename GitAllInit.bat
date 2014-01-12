@@ -685,3 +685,12 @@ git remote add VM  git@lcj.aihlp.com:li/pmcm.git
 git remote add origin  git@li.aihlp.com:li/pmcm.git
 git remote add KMT  gitolite@kmt.aihlp.com:pmcm.git 
 git remote remove KMT
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/CEPRIV1.7.1028OK.git CEPRI_V1.7.1028OK
+cd CEPRI_V1.7.1028OK
+git remote add VM  git@lcj.aihlp.com:li/CEPRIV1.7.1028OK.git
+git remote add origin  git@li.aihlp.com:li/CEPRIV1.7.1028OK.git
+git remote add KMT  gitolite@kmt.aihlp.com:CEPRIV1.7.1028OK.git 
+
