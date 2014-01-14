@@ -701,3 +701,13 @@ cd Terminal3761
 git remote add VM  git@lcj.aihlp.com:li/Terminal3761.git
 git remote add origin  git@li.aihlp.com:li/Terminal3761.git
 git remote add KMT  gitolite@kmt.aihlp.com:Terminal3761.git 
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/HHURepo.git  
+cd HHURepo
+git remote add VM  git@lcj.aihlp.com:li/HHURepo.git
+git remote add origin  git@li.aihlp.com:li/HHURepo.git
+git remote add KMT  gitolite@kmt.aihlp.com:HHURepo.git 
+
+
