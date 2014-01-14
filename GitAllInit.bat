@@ -694,3 +694,10 @@ git remote add VM  git@lcj.aihlp.com:li/CEPRIV1.7.1028OK.git
 git remote add origin  git@li.aihlp.com:li/CEPRIV1.7.1028OK.git
 git remote add KMT  gitolite@kmt.aihlp.com:CEPRIV1.7.1028OK.git 
 
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/Terminal3761.git  
+cd Terminal3761
+git remote add VM  git@lcj.aihlp.com:li/Terminal3761.git
+git remote add origin  git@li.aihlp.com:li/Terminal3761.git
+git remote add KMT  gitolite@kmt.aihlp.com:Terminal3761.git 
