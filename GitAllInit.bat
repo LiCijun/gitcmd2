@@ -711,3 +711,10 @@ git remote add origin  git@li.aihlp.com:li/HHURepo.git
 git remote add KMT  gitolite@kmt.aihlp.com:HHURepo.git 
 
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/xianocx.git  
+cd xianocx
+git remote add VM  git@lcj.aihlp.com:li/xianocx.git
+git remote add origin  git@li.aihlp.com:li/xianocx.git
+git remote add KMT  gitolite@kmt.aihlp.com:xianocx.git 
+
