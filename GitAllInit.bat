@@ -424,20 +424,6 @@ git remote add VM  git@lcj.aihlp.com:li/gitignore.git
 git remote add origin  git@li.aihlp.com:li/gitignore.git
 git remote add github  git@github.com:LiCijun/gitignore.git
  
-cd %~dp0..\
-git clone git://github.com/ossxp-com/gitolite.git
-cd gitolite
-git remote rename origin github
-git remote add VM  git@lcj.aihlp.com:li/gitolite.git
-git remote add origin  git@li.aihlp.com:li/gitolite.git
-
-cd %~dp0..\
-git clone git://github.com/sitaramc/gitolite.git gitoliteOrigin
-cd gitoliteOrigin
-git remote rename origin github
-git remote add VM  git@lcj.aihlp.com:li/gitoliteOrigin.git
-git remote add origin  git@li.aihlp.com:li/gitoliteOrigin.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li.aihlp.com:li/w8600sdk.git
