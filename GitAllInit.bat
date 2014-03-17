@@ -704,3 +704,10 @@ git remote add VM  git@lcj.aihlp.com:li/xianocx.git
 git remote add origin  git@li.aihlp.com:li/xianocx.git
 git remote add KMT  gitolite@kmt.aihlp.com:xianocx.git 
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/xianocx.git  
+cd HHUConfigForPC
+git remote add VM  git@lcj.aihlp.com:li/HHUConfigForPC.git
+git remote add origin  git@li.aihlp.com:li/HHUConfigForPC.git
+git remote add KMT  gitolite@kmt.aihlp.com:HHUConfigForPC.git 
+
