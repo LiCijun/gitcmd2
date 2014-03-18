@@ -711,3 +711,10 @@ git remote add VM  git@lcj.aihlp.com:li/HHUConfigForPC.git
 git remote add origin  git@li.aihlp.com:li/HHUConfigForPC.git
 git remote add KMT  gitolite@kmt.aihlp.com:HHUConfigForPC.git 
 
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/deyang.git  
+cd deyang
+git remote add VM  git@lcj.aihlp.com:li/deyang.git
+git remote add origin  git@li.aihlp.com:li/deyang.git
+git remote add KMT  gitolite@kmt.aihlp.com:deyang.git 
