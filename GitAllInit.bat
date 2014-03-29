@@ -718,3 +718,36 @@ cd deyang
 git remote add VM  git@lcj.aihlp.com:li/deyang.git
 git remote add origin  git@li.aihlp.com:li/deyang.git
 git remote add KMT  gitolite@kmt.aihlp.com:deyang.git 
+
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/deyang.git  
+cd meter645
+git remote add VM  git@lcj.aihlp.com:li/meter645.git
+git remote add origin  git@li.aihlp.com:li/meter645.git
+git remote add KMT  gitolite@kmt.aihlp.com:meter645.git 
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/SecUnit.git  
+cd SecUnit
+git remote add VM  git@lcj.aihlp.com:li/SecUnit.git
+git remote add origin  git@li.aihlp.com:li/SecUnit.git
+git remote add KMT  gitolite@kmt.aihlp.com:SecUnit.git 
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/MeterFunction.git  
+cd MeterFunction
+git remote add VM  git@lcj.aihlp.com:li/MeterFunction.git
+git remote add origin  git@li.aihlp.com:li/MeterFunction.git
+git remote add KMT  gitolite@kmt.aihlp.com:MeterFunction.git 
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/pmcforhhu.git  
+cd pmcforhhu
+git remote add VM  git@lcj.aihlp.com:li/pmcforhhu.git
+git remote add origin  git@li.aihlp.com:li/pmcforhhu.git
+git remote add KMT  gitolite@kmt.aihlp.com:pmcforhhu.git 
