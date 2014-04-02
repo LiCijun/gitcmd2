@@ -703,7 +703,8 @@ cd ibd70
 git remote add VM  git@lcj.aihlp.com:li/ibd70.git
 git remote add origin  git@li.aihlp.com:li/ibd70.git 
 git remote add KMT  gitolite@kmt.aihlp.com:ibd70.git 
-git remote add lcj  git@lcj:li/tools.git
+git remote add lcj  git@lcj:li/ibd70.git
+git remote set-url lcj git@lcj:li/ibd70.git
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li.aihlp.com:li/oa.git
@@ -860,3 +861,12 @@ git remote add VM  git@lcj.aihlp.com:li/pmcforhhu.git
 git remote add origin  git@li.aihlp.com:li/pmcforhhu.git
 git remote add KMT  gitolite@kmt.aihlp.com:pmcforhhu.git 
 git remote add lcj  git@lcj:li/pmcforhhu.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li.aihlp.com:li/PLSQL.git  
+cd PLSQL
+git remote add VM  git@lcj.aihlp.com:li/PLSQL.git
+git remote add origin  git@li.aihlp.com:li/PLSQL.git
+git remote add KMT  gitolite@kmt.aihlp.com:PLSQL.git 
+git remote add lcj  git@lcj:li/PLSQL.git
