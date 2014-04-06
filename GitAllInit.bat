@@ -762,6 +762,9 @@ git remote add VM  git@vm:li/pmc.git
 git remote add origin  git@li:li/pmc.git
 git remote add KMT  gitolite@kmt:pmc.git 
 git remote add lcj  git@lcj:li/pmc.git
+git remote set-url origin git@li:li/pmc.git
+
+
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/systemos.git
