@@ -3,13 +3,14 @@ git.exe clone  --recursive   --progress -v   git@li:bit.git
 cd bit
 git remote add VM  git@vm:bit.git
 git remote add lcj  git@lcj:bit.git
-
+git remote set-url VM  git@vm:bit.git
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:cepripro.git
 cd cepripro
 git remote add VM  git@vm:cepripro.git
 git remote add lcj  git@lcj:cepripro.git
+git remote set-url VM  git@vm:cepripro.git
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:cepri_release.git
