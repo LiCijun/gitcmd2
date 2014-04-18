@@ -882,3 +882,13 @@ git remote add VM  git@vm:li/P35Check.git
 git remote add origin  git@li:li/P35Check.git
 git remote add KMT  gitolite@kmt:P35Check.git 
 git remote add lcj  git@lcj:li/P35Check.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/ISO7816.git  
+cd ISO7816
+git remote add VM  git@vm:li/ISO7816.git
+git remote add origin  git@li:li/ISO7816.git
+git remote add KMT  gitolite@kmt:ISO7816.git 
+git remote add lcj  git@lcj:li/ISO7816.git
+
