@@ -892,3 +892,12 @@ git remote add origin  git@li:li/ISO7816.git
 git remote add KMT  gitolite@kmt:ISO7816.git 
 git remote add lcj  git@lcj:li/ISO7816.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/DeYangGSMGPS.git  
+cd DeYangGSMGPS
+git remote add VM  git@vm:li/DeYangGSMGPS.git
+git remote add origin  git@li:li/DeYangGSMGPS.git
+git remote add KMT  gitolite@kmt:DeYangGSMGPS.git 
+git remote add lcj  git@lcj:li/DeYangGSMGPS.git
+
+s
