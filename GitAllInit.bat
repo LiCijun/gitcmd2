@@ -900,4 +900,10 @@ git remote add origin  git@li:li/DeYangGSMGPS.git
 git remote add KMT  gitolite@kmt:DeYangGSMGPS.git 
 git remote add lcj  git@lcj:li/DeYangGSMGPS.git
 
-s
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/K36Test.git  
+cd K36Test
+git remote add VM  git@vm:li/K36Test.git
+git remote add origin  git@li:li/K36Test.git
+git remote add KMT  gitolite@kmt:K36Test.git 
+git remote add lcj  git@lcj:li/K36Test.git
