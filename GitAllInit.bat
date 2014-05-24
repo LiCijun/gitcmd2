@@ -872,7 +872,6 @@ git.exe clone  --recursive     --progress -v   git@li:li/PLSQL.git
 cd PLSQL
 git remote add VM  git@vm:li/PLSQL.git
 git remote add origin  git@li:li/PLSQL.git
-git remote add KMT  gitolite@kmt:PLSQL.git 
 git remote add lcj  git@lcj:li/PLSQL.git
 
 cd %~dp0..\
