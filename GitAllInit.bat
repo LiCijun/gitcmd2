@@ -906,3 +906,12 @@ git remote add VM  git@vm:li/K36Test.git
 git remote add origin  git@li:li/K36Test.git
 git remote add KMT  gitolite@kmt:K36Test.git 
 git remote add lcj  git@lcj:li/K36Test.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/DeYangRS485.git  
+cd DeYangRS485
+git remote add VM  git@vm:li/DeYangRS485.git
+git remote add origin  git@li:li/DeYangRS485.git
+git remote add KMT  gitolite@kmt:DeYangRS485.git 
+git remote add lcj  git@lcj:li/DeYangRS485.git
