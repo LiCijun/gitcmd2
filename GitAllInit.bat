@@ -2,13 +2,11 @@ cd %~dp0..\
 git.exe clone  --recursive   --progress -v   git@li:bit.git
 cd bit
 git remote add lcj  git@lcj:bit.git
-git remote set-url VM  git@vm:bit.git
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:cepripro.git
 cd cepripro
 git remote add lcj  git@lcj:cepripro.git
-git remote set-url VM  git@vm:cepripro.git
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:cepri_release.git
@@ -333,7 +331,6 @@ git remote add lcj  git@lcj:li/li.git
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/livs2012.git
 cd livs2012
-git remote add VM  git@vm:li/livs2012.git
 git remote add lcj  git@lcj:li/livs2012.git
 
 cd %~dp0..\
@@ -536,7 +533,6 @@ git remote add lcj  git@lcj:li/WinCEUILib.git
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/InstallShield.git
 cd InstallShield
-git remote add VM  git@vm:li/InstallShield.git
 git remote add origin  git@li:li/InstallShield.git
 git remote add lcj  git@lcj:li/InstallShield.git
 
@@ -550,7 +546,6 @@ git remote add lcj  git@lcj:li/xiamen.git
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/readmeter.git
 cd readmeter
-git remote add VM  git@vm:li/readmeter.git
 git remote add origin  git@li:li/readmeter.git
 git remote add lcj  git@lcj:li/readmeter.git
 
