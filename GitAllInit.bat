@@ -784,3 +784,12 @@ cd DeYangRS485
 git remote add origin  git@li:li/DeYangRS485.git
 git remote add KMT  gitolite@kmt:DeYangRS485.git 
 git remote add lcj  git@lcj:li/DeYangRS485.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/phpmyadmin.git  
+cd phpmyadmin
+git remote add github  git://github.com/phpmyadmin/phpmyadmin.git
+git remote add KMT  gitolite@kmt:phpmyadmin.git 
+git remote add lcj  git@lcj:li/phpmyadmin.git
+
