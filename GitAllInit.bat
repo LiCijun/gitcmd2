@@ -793,3 +793,9 @@ git remote add github  git://github.com/phpmyadmin/phpmyadmin.git
 git remote add KMT  gitolite@kmt:phpmyadmin.git 
 git remote add lcj  git@lcj:li/phpmyadmin.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/ESAMInit.git
+cd ESAMInit
+git remote add origin  git@li:li/ESAMInit.git
+git remote add KMT  gitolite@kmt:ESAMInit.git
+git remote add lcj  git@lcj:li/ESAMInit.git
