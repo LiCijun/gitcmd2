@@ -808,3 +808,8 @@ git remote add origin  git@li:li/K36Scan.git
 git remote add KMT  gitolite@kmt:K36Scan.git
 git remote add lcj  git@lcj:li/K36Scan.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/RSA.git
+cd RSA
+git remote add origin  git@li:li/RSA.git
+git remote add lcj  git@lcj:li/RSA.git
