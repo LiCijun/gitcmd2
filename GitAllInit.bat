@@ -821,3 +821,11 @@ cd HHUCheck
 git remote add origin  git@li:li/HHUCheck.git
 git remote add lcj  git@lcj:li/HHUCheck.git
 git remote add KMT  gitolite@kmt:HHUCheck.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/SecUnitReadCardNo.git
+cd SecUnitReadCardNo
+git remote add origin  git@li:li/SecUnitReadCardNo.git
+git remote add lcj  git@lcj:li/SecUnitReadCardNo.git
+git remote add KMT  gitolite@kmt:SecUnitReadCardNo.git
