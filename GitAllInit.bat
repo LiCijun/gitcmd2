@@ -835,4 +835,3 @@ git.exe clone  --recursive     --progress -v   git@li:li/BlueTooth.git  WinCE.BT
 cd WinCE.BTSet
 git remote add origin  git@li:li/BlueTooth.git
 git remote add lcj  git@lcj:li/BlueTooth.git
-git remote add KMT  gitolite@kmt:BlueTooth.git
