@@ -829,3 +829,10 @@ cd SecUnitReadCardNo
 git remote add origin  git@li:li/SecUnitReadCardNo.git
 git remote add lcj  git@lcj:li/SecUnitReadCardNo.git
 git remote add KMT  gitolite@kmt:SecUnitReadCardNo.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/BlueTooth.git  WinCE.BTSet
+cd WinCE.BTSet
+git remote add origin  git@li:li/BlueTooth.git
+git remote add lcj  git@lcj:li/BlueTooth.git
+git remote add KMT  gitolite@kmt:BlueTooth.git
