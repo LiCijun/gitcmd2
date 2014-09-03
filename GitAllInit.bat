@@ -835,3 +835,35 @@ git.exe clone  --recursive     --progress -v   git@li:li/BlueTooth.git  WinCE.BT
 cd WinCE.BTSet
 git remote add origin  git@li:li/BlueTooth.git
 git remote add lcj  git@lcj:li/BlueTooth.git
+
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/K36SimulatedTest.git
+cd K36SimulatedTest
+git remote add origin  git@li:li/K36SimulatedTest.git
+git remote add lcj  git@lcj:li/K36SimulatedTest.git
+git remote add KMT  gitolite@kmt:K36SimulatedTest.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/mfhhd.git
+cd mfhhd
+git remote add origin  git@li:li/mfhhd.git
+git remote set-url origin  git@li:li/mfhhd.git
+git remote add lcj  git@lcj:li/mfhhd.git
+git remote add KMT  gitolite@kmt:mfhhd.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/fssdoc.git
+cd fssdoc
+git remote add origin  git@li:li/fssdoc.git
+git remote set-url origin  git@li:li/fssdoc.git
+git remote add lcj  git@lcj:li/fssdoc.git
+git remote add KMT  gitolite@kmt:fssdoc.git
+
+
+
