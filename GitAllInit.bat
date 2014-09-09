@@ -874,5 +874,18 @@ git remote set-url origin  git@li:li/JavaLib.git
 git remote add lcj  git@lcj:li/JavaLib.git
 git remote add KMT  gitolite@kmt:JavaLib.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/javaDemo.git
+cd javaDemo
+git remote add origin  git@li:li/javaDemo.git
+git remote set-url origin  git@li:li/javaDemo.git
+git remote add lcj  git@lcj:li/javaDemo.git
+git remote add KMT  gitolite@kmt:javaDemo.git
 
-
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@kmt:testreport.git
+cd testreport
+git remote add origin  git@li:li/testreport.git
+git remote set-url origin  git@li:li/testreport.git
+git remote add lcj  git@lcj:li/testreport.git
+git remote add KMT  gitolite@kmt:testreport.git
