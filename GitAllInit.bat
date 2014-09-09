@@ -866,4 +866,13 @@ git remote add lcj  git@lcj:li/fssdoc.git
 git remote add KMT  gitolite@kmt:fssdoc.git
 
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/JavaLib.git
+cd JavaLib
+git remote add origin  git@li:li/JavaLib.git
+git remote set-url origin  git@li:li/JavaLib.git
+git remote add lcj  git@lcj:li/JavaLib.git
+git remote add KMT  gitolite@kmt:JavaLib.git
+
+
 
