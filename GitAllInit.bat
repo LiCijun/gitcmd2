@@ -883,9 +883,17 @@ git remote add lcj  git@lcj:li/javaDemo.git
 git remote add KMT  gitolite@kmt:javaDemo.git
 
 cd %~dp0..\
-git.exe clone  --recursive     --progress -v   git@kmt:testreport.git
+git.exe clone  --recursive     --progress -v   git@li:li/testreport.git
 cd testreport
 git remote add origin  git@li:li/testreport.git
 git remote set-url origin  git@li:li/testreport.git
 git remote add lcj  git@lcj:li/testreport.git
 git remote add KMT  gitolite@kmt:testreport.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/mfhhdAssist.git
+cd mfhhdAssist
+git remote add origin  git@li:li/mfhhdAssist.git
+git remote set-url origin  git@li:li/mfhhdAssist.git
+git remote add lcj  git@lcj:li/mfhhdAssist.git
+git remote add KMT  gitolite@kmt:mfhhdAssist.git
