@@ -906,3 +906,16 @@ git remote add origin  git@li:li/evc.git
 git remote add lcj  git@lcj:li/evc.git
 git remote add KMT  gitolite@kmt:evc.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/database_data.git
+cd database_data
+git remote add origin  git@li:li/database_data.git
+git remote add lcj  git@lcj:li/database_data.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/pmcupdate.git
+cd evc
+git remote add origin  git@li:li/pmcupdate.git
+git remote add lcj  git@lcj:li/pmcupdate.git
+git remote add KMT  gitolite@kmt:pmcupdate.git
