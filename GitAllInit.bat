@@ -922,7 +922,7 @@ git remote add KMT  gitolite@kmt:pmcupdate.git
 
 
 cd %~dp0..\
-git.exe clone  --recursive     --progress -v  git@li:li/pmcdate.git
-cd database_data
-git remote add origin  git@li:li/pmcdate.git
-git remote add lcj  git@lcj:li/pmcdate.git
+git.exe clone  --recursive     --progress -v  git@li:li/pmcdata.git
+cd pmcdata
+git remote add origin  git@li:li/pmcdata.git
+git remote add lcj  git@lcj:li/pmcdata.git
