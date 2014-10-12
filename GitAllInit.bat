@@ -821,3 +821,108 @@ cd HHUCheck
 git remote add origin  git@li:li/HHUCheck.git
 git remote add lcj  git@lcj:li/HHUCheck.git
 git remote add KMT  gitolite@kmt:HHUCheck.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/SecUnitReadCardNo.git
+cd SecUnitReadCardNo
+git remote add origin  git@li:li/SecUnitReadCardNo.git
+git remote add lcj  git@lcj:li/SecUnitReadCardNo.git
+git remote add KMT  gitolite@kmt:SecUnitReadCardNo.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/BlueTooth.git  WinCE.BTSet
+cd WinCE.BTSet
+git remote add origin  git@li:li/BlueTooth.git
+git remote add lcj  git@lcj:li/BlueTooth.git
+
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/K36SimulatedTest.git
+cd K36SimulatedTest
+git remote add origin  git@li:li/K36SimulatedTest.git
+git remote add lcj  git@lcj:li/K36SimulatedTest.git
+git remote add KMT  gitolite@kmt:K36SimulatedTest.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/mfhhd.git
+cd mfhhd
+git remote add origin  git@li:li/mfhhd.git
+git remote set-url origin  git@li:li/mfhhd.git
+git remote add lcj  git@lcj:li/mfhhd.git
+git remote add KMT  gitolite@kmt:mfhhd.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/fssdoc.git
+cd fssdoc
+git remote add origin  git@li:li/fssdoc.git
+git remote set-url origin  git@li:li/fssdoc.git
+git remote add lcj  git@lcj:li/fssdoc.git
+git remote add KMT  gitolite@kmt:fssdoc.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/JavaLib.git
+cd JavaLib
+git remote add origin  git@li:li/JavaLib.git
+git remote set-url origin  git@li:li/JavaLib.git
+git remote add lcj  git@lcj:li/JavaLib.git
+git remote add KMT  gitolite@kmt:JavaLib.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/javaDemo.git
+cd javaDemo
+git remote add origin  git@li:li/javaDemo.git
+git remote set-url origin  git@li:li/javaDemo.git
+git remote add lcj  git@lcj:li/javaDemo.git
+git remote add KMT  gitolite@kmt:javaDemo.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/testreport.git
+cd testreport
+git remote add origin  git@li:li/testreport.git
+git remote set-url origin  git@li:li/testreport.git
+git remote add lcj  git@lcj:li/testreport.git
+git remote add KMT  gitolite@kmt:testreport.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/mfhhdAssist.git
+cd mfhhdAssist
+git remote add origin  git@li:li/mfhhdAssist.git
+git remote set-url origin  git@li:li/mfhhdAssist.git
+git remote add lcj  git@lcj:li/mfhhdAssist.git
+git remote add KMT  gitolite@kmt:mfhhdAssist.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/evc.git
+cd evc
+git remote add origin  git@li:li/evc.git
+git remote add lcj  git@lcj:li/evc.git
+git remote add KMT  gitolite@kmt:evc.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/database_data.git
+cd database_data
+git remote add origin  git@li:li/database_data.git
+git remote add lcj  git@lcj:li/database_data.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/pmcupdate.git
+cd pmcupdate
+git remote add origin  git@li:li/pmcupdate.git
+git remote add lcj  git@lcj:li/pmcupdate.git
+git remote add KMT  gitolite@kmt:pmcupdate.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/pmcdata.git
+cd pmcdata
+git remote add origin  git@li:li/pmcdata.git
+git remote add lcj  git@lcj:li/pmcdata.git
