@@ -915,7 +915,7 @@ git remote add lcj  git@lcj:li/database_data.git
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/pmcupdate.git
-cd evc
+cd pmcupdate
 git remote add origin  git@li:li/pmcupdate.git
 git remote add lcj  git@lcj:li/pmcupdate.git
 git remote add KMT  gitolite@kmt:pmcupdate.git
