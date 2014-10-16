@@ -926,3 +926,13 @@ git.exe clone  --recursive     --progress -v  git@li:li/pmcdata.git
 cd pmcdata
 git remote add origin  git@li:li/pmcdata.git
 git remote add lcj  git@lcj:li/pmcdata.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/P36.git
+cd P36
+git remote add origin  git@li:li/P36.git
+git remote add lcj  git@lcj:li/P36.git
+git remote add KMT  gitolite@kmt:P36.git
+
