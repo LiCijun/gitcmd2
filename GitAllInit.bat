@@ -936,3 +936,9 @@ git remote add origin  git@li:li/P36.git
 git remote add lcj  git@lcj:li/P36.git
 git remote add KMT  gitolite@kmt:P36.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/PowerMeter.git
+cd PowerMeter
+git remote add origin  git@li:li/PowerMeter.git
+git remote add lcj  git@lcj:li/PowerMeter.git
+git remote add KMT  gitolite@kmt:PowerMeter.git
