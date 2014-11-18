@@ -942,3 +942,12 @@ cd PowerMeter
 git remote add origin  git@li:li/PowerMeter.git
 git remote add lcj  git@lcj:li/PowerMeter.git
 git remote add KMT  gitolite@kmt:PowerMeter.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/TESAM.git
+cd TESAM
+git remote add origin  git@li:li/TESAM.git
+git remote add lcj  git@lcj:li/TESAM.git
+
+
