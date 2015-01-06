@@ -950,4 +950,10 @@ cd TESAM
 git remote add origin  git@li:li/TESAM.git
 git remote add lcj  git@lcj:li/TESAM.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/testmethod.git
+cd TESAM
+git remote add origin  git@li:li/testmethod.git
+git remote add lcj  git@lcj:li/testmethod.git
+git remote add KMT  gitolite@kmt:testmethod.git
 
