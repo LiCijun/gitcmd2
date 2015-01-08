@@ -949,10 +949,11 @@ git.exe clone  --recursive     --progress -v  git@li:li/TESAM.git
 cd TESAM
 git remote add origin  git@li:li/TESAM.git
 git remote add lcj  git@lcj:li/TESAM.git
+git remote del  KMT
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/testmethod.git
-cd TESAM
+cd testmethod
 git remote add origin  git@li:li/testmethod.git
 git remote add lcj  git@lcj:li/testmethod.git
 git remote add KMT  gitolite@kmt:testmethod.git
