@@ -958,3 +958,21 @@ git remote add origin  git@li:li/testmethod.git
 git remote add lcj  git@lcj:li/testmethod.git
 git remote add KMT  gitolite@kmt:testmethod.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/PMCWebService.git
+cd PMCWebService
+git remote add origin  git@li:li/PMCWebService.git
+git remote add lcj  git@lcj:li/PMCWebService.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/OpenNETCF.IO.Serial.git
+cd OpenNETCF.IO.Serial
+git remote add origin  git@li:li/OpenNETCF.IO.Serial.git
+git remote add lcj  git@lcj:li/OpenNETCF.IO.Serial.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/kmcom.git
+cd kmcom
+git remote add origin  git@li:li/kmcom.git
+git remote add lcj  git@lcj:li/kmcom.git
