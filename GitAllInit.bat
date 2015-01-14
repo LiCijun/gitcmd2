@@ -495,6 +495,7 @@ git remote add github  git@github.com:LiCijun/certification.git
 git remote add lcj  git@lcj:li/certification.git
 
 
+
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   gitolite@kmt:gitolite-admin.git gitolite-admin-KMT
 cd gitolite-admin-KMT
