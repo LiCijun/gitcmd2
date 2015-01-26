@@ -977,3 +977,36 @@ git.exe clone  --recursive     --progress -v  git@li:li/kmcom.git
 cd kmcom
 git remote add origin  git@li:li/kmcom.git
 git remote add lcj  git@lcj:li/kmcom.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/Dispose.git
+cd WinCE.Dispose
+git remote add origin  git@li:li/Dispose.git
+git remote add lcj  git@lcj:li/Dispose.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/RFID.git
+cd WinCE.RFID
+git remote add origin  git@li:li/RFID.git
+git remote add lcj  git@lcj:li/RFID.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/IRFID1356M.git
+cd WinCE.RFID.IRFID1356M
+git remote add origin  git@li:li/IRFID1356M.git
+git remote add lcj  git@lcj:li/IRFID1356M.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/SPI.git
+cd WinCE.SPI
+git remote add origin  git@li:li/SPI.git
+git remote add lcj  git@lcj:li/SPI.git
+
+
+
+
+
+
+
+
