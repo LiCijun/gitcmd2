@@ -1010,4 +1010,8 @@ git remote add origin  git@li:li/fssRelease.git
 git remote add lcj  git@lcj:li/fssRelease.git
 git remote add KMT  gitolite@kmt:fssRelease.git
 
-
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/SealTest.git 
+cd SealTest
+git remote add origin  git@li:li/SealTest.git
+git remote add lcj  git@lcj:li/SealTest.git
