@@ -1015,12 +1015,13 @@ git.exe clone  --recursive     --progress -v  git@li:li/SealTest.git
 cd SealTest
 git remote add origin  git@li:li/SealTest.git
 git remote add lcj  git@lcj:li/SealTest.git
-
+git remote add KMT  gitolite@kmt:SealTest.git
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/P35MeterCard.git 
 cd P35MeterCard
 git remote add origin  git@li:li/P35MeterCard.git
 git remote add lcj  git@lcj:li/P35MeterCard.git
+git remote add KMT  gitolite@kmt:P35MeterCard.git
 
 
