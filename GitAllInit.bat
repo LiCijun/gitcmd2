@@ -950,8 +950,9 @@ git.exe clone  --recursive     --progress -v  git@li:li/TESAM.git
 cd TESAM
 git remote add origin  git@li:li/TESAM.git
 git remote add lcj  git@lcj:li/TESAM.git
-git remote del  KMT
+git remote add  KMT gitolite@kmt:TESAM.git
 
+ 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/testmethod.git
 cd testmethod
@@ -1025,3 +1026,8 @@ git remote add lcj  git@lcj:li/P35MeterCard.git
 git remote add KMT  gitolite@kmt:P35MeterCard.git
 
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/WinCE.TESAMRFID.git  WinCE.TESAMRFID
+cd WinCE.TESAMRFID
+git remote add origin  git@li:li/WinCE.TESAMRFID.git
+git remote add lcj  git@lcj:li/WinCE.TESAMRFID.git
