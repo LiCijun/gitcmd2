@@ -1035,6 +1035,7 @@ git remote add lcj  git@lcj:li/WinCE.TESAMRFID.git
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/zxing.git
 cd zxing
-git remote add KMT  git@github.com:zxing/zxing.git
+git remote add github  git@github.com:zxing/zxing.git
 git remote add lcj  git@lcj:li/zxing.git
 git remote set-url origin git@li:li/zxing.git
+git remote remove KMT
