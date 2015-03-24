@@ -1031,3 +1031,10 @@ git.exe clone  --recursive     --progress -v  git@li:li/WinCE.TESAMRFID.git  Win
 cd WinCE.TESAMRFID
 git remote add origin  git@li:li/WinCE.TESAMRFID.git
 git remote add lcj  git@lcj:li/WinCE.TESAMRFID.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/zxing.git
+cd zxing
+git remote add KMT  git@github.com:zxing/zxing.git
+git remote add lcj  git@lcj:li/zxing.git
+git remote set-url origin git@li:li/zxing.git
