@@ -1039,3 +1039,11 @@ git remote add github  git@github.com:zxing/zxing.git
 git remote add lcj  git@lcj:li/zxing.git
 git remote set-url origin git@li:li/zxing.git
 git remote remove KMT
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/P38.git 
+cd P38
+git remote add origin  git@li:li/P38.git
+git remote add lcj  git@lcj:li/P38.git
+git remote add KMT  gitolite@kmt:P38.git
