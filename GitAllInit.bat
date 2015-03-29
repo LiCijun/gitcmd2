@@ -1049,3 +1049,10 @@ cd P38
 git remote add origin  git@li:li/P38.git
 git remote add lcj  git@lcj:li/P38.git
 git remote add KMT  gitolite@kmt:P38.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/XMLSerialize.git 
+cd XMLSerialize
+git remote add origin  git@li:li/XMLSerialize.git
+git remote add lcj  git@lcj:li/XMLSerialize.git
+
