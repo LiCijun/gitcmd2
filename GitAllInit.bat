@@ -421,9 +421,9 @@ cd %~dp0..\
 git clone  git@github.com:github/gitignore.git
 cd gitignore
 git remote rename origin github
-git remote add origin  git@li:li/gitignore.git
-git remote add github  git@github.com:LiCijun/gitignore.git
-git remote add lcj  git@lcj:li/gitignore.git
+git remote remove lcj
+git remote remove origin
+
  
 
 cd %~dp0..\
@@ -791,8 +791,9 @@ cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/phpmyadmin.git  
 cd phpmyadmin
 git remote add github  git://github.com/phpmyadmin/phpmyadmin.git
-git remote add KMT  gitolite@kmt:phpmyadmin.git 
-git remote add lcj  git@lcj:li/phpmyadmin.git
+git remote remove KMT
+git remote remove lcj
+git remote remove origin
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/ESAMInit.git
@@ -1036,9 +1037,10 @@ cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/zxing.git
 cd zxing
 git remote add github  git@github.com:zxing/zxing.git
-git remote add lcj  git@lcj:li/zxing.git
-git remote set-url origin git@li:li/zxing.git
 git remote remove KMT
+git remote remove lcj
+git remote remove origin
+
 
 
 cd %~dp0..\
