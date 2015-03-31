@@ -1056,3 +1056,9 @@ cd XMLSerialize
 git remote add origin  git@li:li/XMLSerialize.git
 git remote add lcj  git@lcj:li/XMLSerialize.git
 
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/CalcCheckCode.git 
+cd CalcCheckCode
+git remote add origin  git@li:li/CalcCheckCode.git
+git remote add lcj  git@lcj:li/CalcCheckCode.git
