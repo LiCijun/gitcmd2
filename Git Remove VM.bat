@@ -4,7 +4,7 @@ echo lcj
 cd %%s
 echo %%s
 echo.
-git remote remove VM
+git remote remove KMT
 echo.
 echo.
 echo.

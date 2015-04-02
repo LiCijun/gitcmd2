@@ -499,7 +499,8 @@ git remote add lcj  git@lcj:li/certification.git
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   gitolite@kmt:gitolite-admin.git gitolite-admin-KMT
 cd gitolite-admin-KMT
-git.exe remote rename origin KMT
+git remote add KMT gitolite@kmt:gitolite-admin.git
+git.exe remote remove  origin
 git remote add origin  git@li:li/gitolite-admin-KMT.git
 git remote add lcj  git@lcj:li/gitolite-admin-KMT.git
 
