@@ -1067,6 +1067,13 @@ git remote add lcj  git@lcj:li/CalcCheckCode.git
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/WinCE.MSTIII.Interface.git  WinCE.MSTIII.Interface
 cd WinCE.MSTIII.Interface
-git remote add origin  git@li:li/WinCE.MSTIII.InterfaceWinCE.MSTIII.Interface.git
+git remote add origin  git@li:li/WinCE.MSTIII.Interface.git
+git remote set-url origin  git@li:li/WinCE.MSTIII.Interface.git
 git remote add lcj  git@lcj:li/WinCE.MSTIII.Interface.git
 git remote add KMT  gitolite@kmt:WinCE.MSTIII.Interface.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/WinCE.P645.git  WinCE.P645
+cd WinCE.P645
+git remote add origin  git@li:li/WinCE.P645.git
+git remote add lcj  git@lcj:li/WinCE.P645.git
