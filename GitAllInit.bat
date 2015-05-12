@@ -1077,3 +1077,4 @@ git.exe clone  --recursive     --progress -v  git@li:li/WinCE.P645.git  WinCE.P6
 cd WinCE.P645
 git remote add origin  git@li:li/WinCE.P645.git
 git remote add lcj  git@lcj:li/WinCE.P645.git
+git remote add KMT  gitolite@kmt:P645.git
