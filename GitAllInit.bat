@@ -980,7 +980,8 @@ git.exe clone  --recursive     --progress -v  git@li:li/kmcom.git
 cd kmcom
 git remote add origin  git@li:li/kmcom.git
 git remote add lcj  git@lcj:li/kmcom.git
-
+git remote add KMT  gitolite@kmt:kmcom.git
+git remote set-url KMT gitolite@kmt:kmcom.git
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/Dispose.git WinCE.Dispose
