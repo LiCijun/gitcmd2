@@ -1086,3 +1086,27 @@ cd mfhhdHHU
 git remote add origin  git@li:li/mfhhdHHU.git
 git remote add lcj  git@lcj:li/mfhhdHHU.git
 git remote add KMT  gitolite@kmt:mfhhdHHU.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/SealInfo.git
+cd SealInfo
+git remote add origin  git@li:li/SealInfo.git
+git remote add lcj  git@lcj:li/SealInfo.git
+git remote add KMT  gitolite@kmt:SealInfo.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/GDSDConfig.git
+cd GDSDConfig
+git remote add origin  git@li:li/GDSDConfig.git
+git remote add lcj  git@lcj:li/GDSDConfig.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/HHUInOne.git
+cd HHUInOne
+git remote add origin  git@li:li/HHUInOne.git
+git remote add lcj  git@lcj:li/HHUInOne.git
+git remote add KMT  gitolite@kmt:HHUInOne.git
+
