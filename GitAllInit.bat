@@ -1110,3 +1110,75 @@ git remote add origin  git@li:li/HHUInOne.git
 git remote add lcj  git@lcj:li/HHUInOne.git
 git remote add KMT  gitolite@kmt:HHUInOne.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/WinCE.UHF.git WinCE.UHF
+cd WinCE.UHF
+git remote add origin  git@li:li/WinCE.UHF.git
+git remote add lcj  git@lcj:li/WinCE.UHF.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/www.keymantek.com.git www.keymantek.com
+cd www.keymantek.com
+git remote add origin  git@li:li/www.keymantek.com.git
+git remote add lcj  git@lcj:li/www.keymantek.com.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/Thunderbird.git  
+cd Thunderbird
+git remote add origin  git@li:li/Thunderbird.git
+git remote add lcj  git@lcj:li/Thunderbird.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/testmethod.git  
+cd testmethod
+git remote add origin  git@li:li/testmethod.git
+git remote add lcj  git@lcj:li/testmethod.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/project.git  
+cd project
+git remote add origin  git@li:li/project.git
+git remote add lcj  git@lcj:li/project.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/mfhhdHHU.git  
+cd mfhhdHHU
+git remote add origin  git@li:li/mfhhdHHU.git
+git remote add lcj  git@lcj:li/mfhhdHHU.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/mfhhdHHU.git  
+cd mfhhdHHU
+git remote add origin  git@li:li/mfhhdHHU.git
+git remote add lcj  git@lcj:li/mfhhdHHU.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/HHUDataBase.git  
+cd HHUDataBase
+git remote add origin  git@li:li/HHUDataBase.git
+git remote add lcj  git@lcj:li/HHUDataBase.git
+
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/FSSWebService.git  
+cd FSSWebService
+git remote add origin  git@li:li/FSSWebService.git
+git remote add lcj  git@lcj:li/FSSWebService.git
+
+
+
+
+
