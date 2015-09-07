@@ -35,7 +35,6 @@ git.exe clone  --recursive       --progress -v   git@li:dnspodclientlite.git
 cd dnspodclientlite
 git remote add lcj  git@lcj:dnspodclientlite.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:ebook.git
 cd ebook
@@ -55,7 +54,6 @@ cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:example.git
 cd example
 git remote add lcj  git@lcj:example.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:fss.git
@@ -95,11 +93,6 @@ git remote add KMT  gitolite@kmt:hhuv1.8.git
 git remote add lcj  git@lcj:hhuv1.8.git
 
 cd %~dp0..\
-git.exe clone  --recursive       --progress -v   git@li:ignore.git
-cd ignore
-git remote add lcj  git@lcj:ignore.git
-
-cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:jboss6.1.git
 cd jboss6.1
 git remote add lcj  git@lcj:jboss6.1.git
@@ -123,9 +116,6 @@ cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:km25.git
 cd km25
 git remote add lcj  git@lcj:km25.git
-
-
-
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:kmtdoc.git
@@ -235,13 +225,11 @@ git.exe clone  --recursive       --progress -v   git@li:li/tools.git
 cd tools
 git remote add lcj  git@lcj:li/tools.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/concentrator.git
 cd concentrator
 git remote add KMT  gitolite@kmt:concentrator.git
 git remote add lcj  git@lcj:li/concentrator.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/connector2.git
@@ -352,7 +340,6 @@ git remote add KMT  gitolite@kmt:p31.git
 git remote set-url KMT gitolite@kmt:p31.git
 git remote add lcj  git@lcj:li/p31.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/protocol.git
 cd protocol
@@ -396,12 +383,10 @@ git remote add KMT  gitolite@kmt:li/tp900.git
 git remote set-url KMT gitolite@kmt:tp900.git
 git remote add lcj  git@lcj:li/tp900.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/vmloader.git
 cd vmloader
 git remote add lcj  git@lcj:li/vmloader.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/fss2release.git
@@ -441,7 +426,6 @@ git remote add origin  git@li:li/cpuCard.git
 git remote set-url origin git@li:li/cpuCard.git
 git remote add lcj  git@lcj:li/cpuCard.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/gx.git
 cd gx
@@ -449,7 +433,6 @@ git remote add KMT  gitolite@kmt:gx.git
 git remote add origin  git@li:li/gx.git
 git remote set-url origin git@li:li/gx.git
 git remote add lcj  git@lcj:li/gx.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/hhucompany.git
@@ -459,7 +442,6 @@ git remote add origin  git@li:li/hhucompany.git
 git remote set-url origin git@li:li/hhucompany.git
 git remote add lcj  git@lcj:li/hhucompany.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/jlwh.git
 cd jlwh
@@ -467,7 +449,6 @@ git remote add KMT  gitolite@kmt:jlwh.git
 git remote add origin  git@li:li/jlwh.git
 git remote set-url origin git@li:li/jlwh.git
 git remote add lcj  git@lcj:li/jlwh.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/watermeter.git
@@ -477,7 +458,6 @@ git remote add origin  git@li:li/watermeter.git
 git remote set-url origin git@li:li/watermeter.git
 git remote add lcj  git@lcj:li/watermeter.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/sxocx.git
 cd sxocx
@@ -486,15 +466,12 @@ git remote add origin  git@li:li/sxocx.git
 git remote set-url origin git@li:li/sxocx.git
 git remote add lcj  git@lcj:li/sxocx.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/certification.git
 cd certification
 git remote add origin  git@li:li/certification.git
 git remote add github  git@github.com:LiCijun/certification.git
 git remote add lcj  git@lcj:li/certification.git
-
-
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   gitolite@kmt:gitolite-admin.git gitolite-admin-KMT
@@ -551,7 +528,6 @@ cd readmeter
 git remote add origin  git@li:li/readmeter.git
 git remote add lcj  git@lcj:li/readmeter.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/solution.git
 cd solution
@@ -564,7 +540,6 @@ git.exe clone  --recursive       --progress -v   git@li:li/vc6.git
 cd vc6
 git remote add origin  git@li:li/vc6.git
 git remote add lcj  git@lcj:li/vc6.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/vc6.git
@@ -579,7 +554,6 @@ cd PosD
 git remote add origin  git@li:li/PosD.git
 git remote add KMT  gitolite@kmt:PosD.git 
 git remote add lcj  git@lcj:li/PosD.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/KMJXC.git
@@ -616,7 +590,6 @@ git remote add origin  git@li:li/ibd70test.git
 git remote add KMT  gitolite@kmt:ibd70test.git 
 git remote add lcj  git@lcj:li/ibd70test.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:li/p31test.git
 cd p31test
@@ -638,7 +611,6 @@ git remote add origin  git@li:li/p35demo.git
 git remote add KMT  gitolite@kmt:p35demo.git 
 git remote add lcj  git@lcj:li/p35demo.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/yanfaiso.git
 cd yanfaiso
@@ -653,8 +625,6 @@ git remote add origin  git@li:li/pmc.git
 git remote add KMT  gitolite@kmt:pmc.git 
 git remote add lcj  git@lcj:li/pmc.git
 git remote set-url origin git@li:li/pmc.git
-
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/systemos.git
@@ -713,8 +683,6 @@ git remote add origin  git@li:li/deyang.git
 git remote add KMT  gitolite@kmt:deyang.git 
 git remote add lcj  git@lcj:li/deyang.git
 
-
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/deyang.git  
 cd meter645
@@ -743,7 +711,6 @@ git remote add origin  git@li:li/pmcforhhu.git
 git remote add KMT  gitolite@kmt:pmcforhhu.git 
 git remote add lcj  git@lcj:li/pmcforhhu.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/PLSQL.git  
 cd PLSQL
@@ -756,7 +723,6 @@ cd P35Check
 git remote add origin  git@li:li/P35Check.git
 git remote add KMT  gitolite@kmt:P35Check.git 
 git remote add lcj  git@lcj:li/P35Check.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/ISO7816.git  
@@ -779,14 +745,12 @@ git remote add origin  git@li:li/K36Test.git
 git remote add KMT  gitolite@kmt:K36Test.git 
 git remote add lcj  git@lcj:li/K36Test.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/DeYangRS485.git  
 cd DeYangRS485
 git remote add origin  git@li:li/DeYangRS485.git
 git remote add KMT  gitolite@kmt:DeYangRS485.git 
 git remote add lcj  git@lcj:li/DeYangRS485.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/phpmyadmin.git  
@@ -803,7 +767,6 @@ git remote add origin  git@li:li/ESAMInit.git
 git remote add KMT  gitolite@kmt:ESAMInit.git
 git remote add lcj  git@lcj:li/ESAMInit.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/K36Scan.git
 cd K36Scan
@@ -817,14 +780,12 @@ cd RSA
 git remote add origin  git@li:li/RSA.git
 git remote add lcj  git@lcj:li/RSA.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/HHUCheck.git
 cd HHUCheck
 git remote add origin  git@li:li/HHUCheck.git
 git remote add lcj  git@lcj:li/HHUCheck.git
 git remote add KMT  gitolite@kmt:HHUCheck.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/SecUnitReadCardNo.git
@@ -839,16 +800,12 @@ cd WinCE.BTSet
 git remote add origin  git@li:li/BlueTooth.git
 git remote add lcj  git@lcj:li/BlueTooth.git
 
-
-
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/K36SimulatedTest.git
 cd K36SimulatedTest
 git remote add origin  git@li:li/K36SimulatedTest.git
 git remote add lcj  git@lcj:li/K36SimulatedTest.git
 git remote add KMT  gitolite@kmt:K36SimulatedTest.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/mfhhd.git
@@ -858,8 +815,6 @@ git remote set-url origin  git@li:li/mfhhd.git
 git remote add lcj  git@lcj:li/mfhhd.git
 git remote add KMT  gitolite@kmt:mfhhd.git
 
-
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/fssdoc.git
 cd fssdoc
@@ -867,7 +822,6 @@ git remote add origin  git@li:li/fssdoc.git
 git remote set-url origin  git@li:li/fssdoc.git
 git remote add lcj  git@lcj:li/fssdoc.git
 git remote add KMT  gitolite@kmt:fssdoc.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/JavaLib.git
@@ -901,7 +855,6 @@ git remote set-url origin  git@li:li/mfhhdAssist.git
 git remote add lcj  git@lcj:li/mfhhdAssist.git
 git remote add KMT  gitolite@kmt:mfhhdAssist.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/evc.git
 cd evc
@@ -915,7 +868,6 @@ cd database_data
 git remote add origin  git@li:li/database_data.git
 git remote add lcj  git@lcj:li/database_data.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/pmcupdate.git
 cd pmcupdate
@@ -923,14 +875,11 @@ git remote add origin  git@li:li/pmcupdate.git
 git remote add lcj  git@lcj:li/pmcupdate.git
 git remote add KMT  gitolite@kmt:pmcupdate.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/pmcdata.git
 cd pmcdata
 git remote add origin  git@li:li/pmcdata.git
 git remote add lcj  git@lcj:li/pmcdata.git
-
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/P36.git
@@ -945,7 +894,6 @@ cd PowerMeter
 git remote add origin  git@li:li/PowerMeter.git
 git remote add lcj  git@lcj:li/PowerMeter.git
 git remote add KMT  gitolite@kmt:PowerMeter.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/TESAM.git
@@ -973,7 +921,6 @@ git.exe clone  --recursive     --progress -v  git@li:li/OpenNETCF.IO.Serial.git
 cd OpenNETCF.IO.Serial
 git remote add origin  git@li:li/OpenNETCF.IO.Serial.git
 git remote add lcj  git@lcj:li/OpenNETCF.IO.Serial.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/kmcom.git
@@ -1028,7 +975,6 @@ git remote add origin  git@li:li/P35MeterCard.git
 git remote add lcj  git@lcj:li/P35MeterCard.git
 git remote add KMT  gitolite@kmt:P35MeterCard.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/WinCE.TESAMRFID.git  WinCE.TESAMRFID
 cd WinCE.TESAMRFID
@@ -1043,8 +989,6 @@ git remote remove KMT
 git remote remove lcj
 git remote remove origin
 
-
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/P38.git 
 cd P38
@@ -1057,7 +1001,6 @@ git.exe clone  --recursive     --progress -v  git@li:li/XMLSerialize.git
 cd XMLSerialize
 git remote add origin  git@li:li/XMLSerialize.git
 git remote add lcj  git@lcj:li/XMLSerialize.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/CalcCheckCode.git 
@@ -1087,7 +1030,6 @@ git remote add origin  git@li:li/mfhhdHHU.git
 git remote add lcj  git@lcj:li/mfhhdHHU.git
 git remote add KMT  gitolite@kmt:mfhhdHHU.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/SealInfo.git
 cd SealInfo
@@ -1100,8 +1042,6 @@ git.exe clone  --recursive     --progress -v  git@li:li/GDSDConfig.git
 cd GDSDConfig
 git remote add origin  git@li:li/GDSDConfig.git
 git remote add lcj  git@lcj:li/GDSDConfig.git
-
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/HHUInOne.git
@@ -1116,13 +1056,11 @@ cd WinCE.UHF
 git remote add origin  git@li:li/WinCE.UHF.git
 git remote add lcj  git@lcj:li/WinCE.UHF.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/www.keymantek.com.git www.keymantek.com
 cd www.keymantek.com
 git remote add origin  git@li:li/www.keymantek.com.git
 git remote add lcj  git@lcj:li/www.keymantek.com.git
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/Thunderbird.git  
@@ -1130,14 +1068,11 @@ cd Thunderbird
 git remote add origin  git@li:li/Thunderbird.git
 git remote add lcj  git@lcj:li/Thunderbird.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/testmethod.git  
 cd testmethod
 git remote add origin  git@li:li/testmethod.git
 git remote add lcj  git@lcj:li/testmethod.git
-
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/project.git  
@@ -1145,23 +1080,17 @@ cd project
 git remote add origin  git@li:li/project.git
 git remote add lcj  git@lcj:li/project.git
 
-
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/mfhhdHHU.git  
 cd mfhhdHHU
 git remote add origin  git@li:li/mfhhdHHU.git
 git remote add lcj  git@lcj:li/mfhhdHHU.git
 
-
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/mfhhdHHU.git  
 cd mfhhdHHU
 git remote add origin  git@li:li/mfhhdHHU.git
 git remote add lcj  git@lcj:li/mfhhdHHU.git
-
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/HHUDataBase.git  
@@ -1169,16 +1098,16 @@ cd HHUDataBase
 git remote add origin  git@li:li/HHUDataBase.git
 git remote add lcj  git@lcj:li/HHUDataBase.git
 
-
-
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/FSSWebService.git  
 cd FSSWebService
 git remote add origin  git@li:li/FSSWebService.git
 git remote add lcj  git@lcj:li/FSSWebService.git
 
-
-
-
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/kmcomvc.git  
+cd kmcomvc
+git remote add origin  git@li:li/kmcomvc.git
+git remote add lcj  git@lcj:li/kmcomvc.git
+git remote add KMT  gitolite@kmt:kmcomvc.git
 
