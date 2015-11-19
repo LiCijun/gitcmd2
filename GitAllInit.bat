@@ -753,7 +753,7 @@ git remote add KMT  gitolite@kmt:DeYangRS485.git
 git remote add lcj  git@lcj:li/DeYangRS485.git
 
 cd %~dp0..\
-git.exe clone  --recursive     --progress -v   git@li:li/phpmyadmin.git  
+git.exe clone  --recursive     --progress -v   git://github.com/phpmyadmin/phpmyadmin.git
 cd phpmyadmin
 git remote add github  git://github.com/phpmyadmin/phpmyadmin.git
 git remote remove KMT
@@ -1097,6 +1097,7 @@ git.exe clone  --recursive     --progress -v  git@li:li/HHUDataBase.git
 cd HHUDataBase
 git remote add origin  git@li:li/HHUDataBase.git
 git remote add lcj  git@lcj:li/HHUDataBase.git
+git remote add KMT  gitolite@kmt:HHUDataBase.git
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v  git@li:li/FSSWebService.git  
@@ -1110,4 +1111,27 @@ cd kmcomvc
 git remote add origin  git@li:li/kmcomvc.git
 git remote add lcj  git@lcj:li/kmcomvc.git
 git remote add KMT  gitolite@kmt:kmcomvc.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/FirefoxSync.git  
+cd FirefoxSync
+git remote add origin  git@li:li/FirefoxSync.git
+git remote add lcj  git@lcj:li/FirefoxSync.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/CpuCardLib.git  
+cd CpuCardLib
+git remote add origin  git@li:li/CpuCardLib.git
+git remote add lcj  git@lcj:li/CpuCardLib.git
+git remote add KMT  gitolite@kmt:CpuCardLib.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:WinCE.Convert.git  
+cd WinCE.Convert
+git remote add origin  git@li:li/WinCE.Convert.git
+git remote add lcj  git@lcj:li/WinCE.Convert.git
+git remote add KMT  gitolite@kmt:WinCE.Convert.git
 
