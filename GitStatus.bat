@@ -6,4 +6,3 @@ git.exe status
 echo.
 echo.
 )
-pause

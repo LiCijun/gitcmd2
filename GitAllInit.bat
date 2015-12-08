@@ -752,13 +752,6 @@ git remote add origin  git@li:li/DeYangRS485.git
 git remote add KMT  gitolite@kmt:DeYangRS485.git 
 git remote add lcj  git@lcj:li/DeYangRS485.git
 
-cd %~dp0..\
-git.exe clone  --recursive     --progress -v   git://github.com/phpmyadmin/phpmyadmin.git
-cd phpmyadmin
-git remote add github  git://github.com/phpmyadmin/phpmyadmin.git
-git remote remove KMT
-git remote remove lcj
-git remote remove origin
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/ESAMInit.git
@@ -1134,4 +1127,97 @@ cd WinCE.Convert
 git remote add origin  git@li:li/WinCE.Convert.git
 git remote add lcj  git@lcj:li/WinCE.Convert.git
 git remote add KMT  gitolite@kmt:WinCE.Convert.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:Android.Convert.git  
+cd Android.Convert
+git remote add origin  git@li:li/Android.Convert.git
+git remote add lcj  git@lcj:li/Android.Convert.git
+git remote add KMT  gitolite@kmt:Android.Convert.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:WinCE.Data.Sqlite.git  
+cd WinCE.Data.Sqlite
+git remote add origin  git@li:li/WinCE.Data.Sqlite.git
+git remote add lcj  git@lcj:li/WinCE.Data.Sqlite.git
+git remote add KMT  gitolite@kmt:WinCE.Data.Sqlite.git
+
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:Android.Data.Sqlite.git  
+cd Android.Data.Sqlite
+git remote add origin  git@li:li/Android.Data.Sqlite.git
+git remote add lcj  git@lcj:li/Android.Data.Sqlite.git
+git remote add KMT  gitolite@kmt:Android.Data.Sqlite.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v  git@li:li/Android.HHUDataBase.git  
+cd Android.HHUDataBase
+git remote add origin  git@li:li/Android.HHUDataBase.git
+git remote add lcj  git@lcj:li/Android.HHUDataBase.git
+git remote add KMT  gitolite@kmt:Android.HHUDataBase.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.SecUnit.git  
+cd Android.SecUnit
+git remote add origin  git@li:li/Android.SecUnit.git
+git remote add KMT  gitolite@kmt:Android.SecUnit.git 
+git remote add lcj  git@lcj:li/Android.SecUnit.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.MessageQueue.git  
+cd Android.MessageQueue
+git remote add origin  git@li:li/Android.MessageQueue.git
+git remote add KMT  gitolite@kmt:Android.MessageQueue.git 
+git remote add lcj  git@lcj:li/Android.MessageQueue.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/WinCE.MessageQueue.git  
+cd WinCE.MessageQueue
+git remote add origin  git@li:li/WinCE.MessageQueue.git
+git remote add KMT  gitolite@kmt:WinCE.MessageQueue.git 
+git remote add lcj  git@lcj:li/WinCE.MessageQueue.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/WinCE.EnumAttribute.git  
+cd WinCE.EnumAttribute
+git remote add origin  git@li:li/WinCE.EnumAttribute.git
+git remote add KMT  gitolite@kmt:WinCE.EnumAttribute.git 
+git remote add lcj  git@lcj:li/WinCE.EnumAttribute.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.EnumAttribute.git  
+cd Android.EnumAttribute
+git remote add origin  git@li:li/Android.EnumAttribute.git
+git remote add KMT  gitolite@kmt:Android.EnumAttribute.git 
+git remote add lcj  git@lcj:li/Android.EnumAttribute.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Event.git  
+cd Android.Event
+git remote add origin  git@li:li/Android.Event.git
+git remote add KMT  gitolite@kmt:Android.Event.git 
+git remote add lcj  git@lcj:li/Android.Event.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/WinCE.Event.git  
+cd WinCE.Event
+git remote add origin  git@li:li/WinCE.Event.git
+git remote add KMT  gitolite@kmt:WinCE.Event.git 
+git remote add lcj  git@lcj:li/WinCE.Event.git
+
+
+
+
+
+
 
