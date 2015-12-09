@@ -11,3 +11,5 @@ echo.
 echo.
 )
 pause
+pause
+pause
