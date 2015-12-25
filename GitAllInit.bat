@@ -1217,6 +1217,31 @@ git remote add lcj  git@lcj:li/WinCE.Event.git
 
 
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/WinCE.Protocol.git  
+cd WinCE.Protocol
+git remote add origin  git@li:li/WinCE.Protocol.git
+git remote add KMT  gitolite@kmt:WinCE.Protocol.git 
+git remote add lcj  git@lcj:li/WinCE.Protocol.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Protocol.git  
+cd Android.Protocol
+git remote add origin  git@li:li/Android.Protocol.git
+git remote add KMT  gitolite@kmt:Android.Protocol.git 
+git remote add lcj  git@lcj:li/Android.Protocol.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Meter645.git  
+cd Android.Meter645
+git remote add origin  git@li:li/Android.Meter645.git
+git remote add KMT  gitolite@kmt:Android.Meter645.git 
+git remote add lcj  git@lcj:li/Android.Meter645.git
+
+
+
+
 
 
 
