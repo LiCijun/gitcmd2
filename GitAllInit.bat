@@ -1239,6 +1239,12 @@ git remote add origin  git@li:li/Android.Meter645.git
 git remote add KMT  gitolite@kmt:Android.Meter645.git 
 git remote add lcj  git@lcj:li/Android.Meter645.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/CpuCardOcx.git  
+cd CpuCardOcx
+git remote add origin  git@li:li/CpuCardOcx.git
+git remote add KMT  gitolite@kmt:CpuCardOcx.git 
+git remote add lcj  git@lcj:li/CpuCardOcx.git
 
 
 
