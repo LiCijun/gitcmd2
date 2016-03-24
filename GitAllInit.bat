@@ -1247,6 +1247,13 @@ git remote add KMT  gitolite@kmt:CpuCardOcx.git
 git remote add lcj  git@lcj:li/CpuCardOcx.git
 
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/TestByThirdParty.git  
+cd TestByThirdParty
+git remote add origin  git@li:li/TestByThirdParty.git
+git remote add KMT  gitolite@kmt:TestByThirdParty.git 
+git remote add lcj  git@lcj:li/TestByThirdParty.git
+
 
 
 
