@@ -1255,6 +1255,13 @@ git remote add KMT  gitolite@kmt:TestByThirdParty.git
 git remote add lcj  git@lcj:li/TestByThirdParty.git
 
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/AndroidLib.git  
+cd AndroidLib
+git remote add origin  git@li:li/AndroidLib.git
+git remote add KMT  gitolite@kmt:AndroidLib.git 
+git remote add lcj  git@lcj:li/AndroidLib.git
+
 
 
 
