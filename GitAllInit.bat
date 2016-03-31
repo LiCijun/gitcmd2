@@ -209,12 +209,6 @@ cd xian
 git remote add lcj  git@lcj:xian.git
 
 cd %~dp0..\
-git.exe clone  --recursive   --progress -v   git@li:li/mobile.git
-cd mobile
-git remote add origin  git@li:li/mobile.git
-git remote add lcj  git@lcj:li/mobile.git
-
-cd %~dp0..\
 git.exe clone  --recursive       --progress -v   git@li:apk.git
 cd apk
 git remote add github  git@github.com:LiCijun/apk.git
@@ -1263,6 +1257,42 @@ git remote add KMT  gitolite@kmt:AndroidLib.git
 git remote add lcj  git@lcj:li/AndroidLib.git
 
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/AndroidLib.git
+cd AndroidLib
+git remote add origin  git@li:li/AndroidLib.git
+git remote add KMT  gitolite@kmt:AndroidLib.git
+git remote add lcj  git@lcj:li/AndroidLib.git
 
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/KeManTest.git
+cd KeManTest
+git remote add origin  git@li:li/KeManTest.git
+git remote add KMT  gitolite@kmt:KeManTest.git
+git remote add lcj  git@lcj:li/KeManTest.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/AndroidHHU.git
+cd AndroidHHU
+git remote add origin  git@li:li/AndroidHHU.git
+git remote add KMT  gitolite@kmt:AndroidHHU.git
+git remote add lcj  git@lcj:li/AndroidHHU.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/AndroidHHUdoc.git
+cd AndroidHHUdoc
+git remote add origin  git@li:li/AndroidHHUdoc.git
+git remote add KMT  gitolite@kmt:AndroidHHUdoc.git
+git remote add lcj  git@lcj:li/AndroidHHUdoc.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Eclipse.git
+cd Eclipse
+git remote add origin  git@li:li/Eclipse.git
+git remote add KMT  gitolite@kmt:Eclipse.git
+git remote add lcj  git@lcj:li/Eclipse.git
 
