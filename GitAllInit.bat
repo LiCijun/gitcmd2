@@ -1296,3 +1296,84 @@ git remote add origin  git@li:li/Eclipse.git
 git remote add KMT  gitolite@kmt:Eclipse.git
 git remote add lcj  git@lcj:li/Eclipse.git
 
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.SerialPort.git
+cd Android.SerialPort
+git remote add origin  git@li:li/Android.SerialPort.git
+git remote add KMT  gitolite@kmt:Android.SerialPort.git
+git remote add lcj  git@lcj:li/Android.SerialPort.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.DataBase.git
+cd Android.DataBase
+git remote add origin  git@li:li/Android.DataBase.git
+git remote add KMT  gitolite@kmt:Android.DataBase.git
+git remote add lcj  git@lcj:li/Android.DataBase.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.ExeWork.git
+cd Android.ExeWork
+git remote add origin  git@li:li/Android.ExeWork.git
+git remote add KMT  gitolite@kmt:Android.ExeWork.git
+git remote add lcj  git@lcj:li/Android.ExeWork.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.HHUInterface.git
+cd Android.HHUInterface
+git remote add origin  git@li:li/Android.HHUInterface.git
+git remote add KMT  gitolite@kmt:Android.HHUInterface.git
+git remote add lcj  git@lcj:li/Android.HHUInterface.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.WorkSync.git
+cd Android.WorkSync
+git remote add origin  git@li:li/Android.WorkSync.git
+git remote add KMT  gitolite@kmt:Android.WorkSync.git
+git remote add lcj  git@lcj:li/Android.WorkSync.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.MeterFunction.git
+cd Android.MeterFunction
+git remote add origin  git@li:li/Android.MeterFunction.git
+git remote add KMT  gitolite@kmt:Android.MeterFunction.git
+git remote add lcj  git@lcj:li/Android.MeterFunction.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.P645.git
+cd Android.P645
+git remote add origin  git@li:li/Android.P645.git
+git remote add KMT  gitolite@kmt:Android.P645.git
+git remote add lcj  git@lcj:li/Android.P645.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Convert.git
+cd Android.Convert
+git remote add origin  git@li:li/Android.Convert.git
+git remote add KMT  gitolite@kmt:Android.Convert.git
+git remote add lcj  git@lcj:li/Android.Convert.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Meter645.git
+cd Android.Meter645
+git remote add origin  git@li:li/Android.Meter645.git
+git remote add KMT  gitolite@kmt:Android.Meter645.git
+git remote add lcj  git@lcj:li/Android.Meter645.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.SecureUnit.git
+cd Android.SecureUnit
+git remote add origin  git@li:li/Android.SecureUnit.git
+git remote add KMT  gitolite@kmt:Android.SecureUnit.git
+git remote add lcj  git@lcj:li/Android.SecureUnit.git
+
+
+
+
+
+
+
