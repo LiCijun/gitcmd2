@@ -1377,3 +1377,34 @@ git remote add lcj  git@lcj:li/Android.SecureUnit.git
 
 
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.DeviceInfo.git
+cd Android.DeviceInfo
+git remote add origin  git@li:li/Android.DeviceInfo.git
+git remote add KMT  gitolite@kmt:Android.DeviceInfo.git
+git remote add lcj  git@lcj:li/Android.DeviceInfo.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Meter.git
+cd Android.Meter
+git remote add origin  git@li:li/Android.Meter.git
+git remote add KMT  gitolite@kmt:Android.Meter.git
+git remote add lcj  git@lcj:li/Android.Meter.git
+
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Lang.git
+cd Android.Lang
+git remote add origin  git@li:li/Android.Lang.git
+git remote add KMT  gitolite@kmt:Android.Lang.git
+git remote add lcj  git@lcj:li/Android.Lang.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.TestLcj.git
+cd Android.TestLcj
+git remote add origin  git@li:li/Android.TestLcj.git
+git remote add KMT  gitolite@kmt:Android.TestLcj.git
+git remote add lcj  git@lcj:li/Android.TestLcj.git
