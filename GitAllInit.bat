@@ -1364,18 +1364,6 @@ git remote add KMT  gitolite@kmt:Android.Meter645.git
 git remote add lcj  git@lcj:li/Android.Meter645.git
 
 
-cd %~dp0..\
-git.exe clone  --recursive     --progress -v   git@li:li/Android.SecureUnit.git
-cd Android.SecureUnit
-git remote add origin  git@li:li/Android.SecureUnit.git
-git remote add KMT  gitolite@kmt:Android.SecureUnit.git
-git remote add lcj  git@lcj:li/Android.SecureUnit.git
-
-
-
-
-
-
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/Android.DeviceInfo.git
@@ -1408,3 +1396,26 @@ cd Android.TestLcj
 git remote add origin  git@li:li/Android.TestLcj.git
 git remote add KMT  gitolite@kmt:Android.TestLcj.git
 git remote add lcj  git@lcj:li/Android.TestLcj.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Security.git
+cd Android.Security
+git remote add origin  git@li:li/Android.Security.git
+git remote add KMT  gitolite@kmt:Android.Security.git
+git remote add lcj  git@lcj:li/Android.Security.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.IO.Compression.git
+cd Android.IO.Compression
+git remote add origin  git@li:li/Android.IO.Compression.git
+git remote add KMT  gitolite@kmt:Android.IO.Compression.git
+git remote add lcj  git@lcj:li/Android.IO.Compression.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.XMLSerialize.git
+cd Android.XMLSerialize
+git remote add origin  git@li:li/Android.XMLSerialize.git
+git remote add KMT  gitolite@kmt:Android.XMLSerialize.git
+git remote add lcj  git@lcj:li/Android.XMLSerialize.git
