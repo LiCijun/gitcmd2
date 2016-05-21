@@ -1419,3 +1419,11 @@ cd Android.XMLSerialize
 git remote add origin  git@li:li/Android.XMLSerialize.git
 git remote add KMT  gitolite@kmt:Android.XMLSerialize.git
 git remote add lcj  git@lcj:li/Android.XMLSerialize.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.MeasurementControl.git
+cd Android.MeasurementControl
+git remote add origin  git@li:li/Android.MeasurementControl.git
+git remote add KMT  gitolite@kmt:Android.MeasurementControl.git
+git remote add lcj  git@lcj:li/Android.MeasurementControl.git
