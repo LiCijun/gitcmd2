@@ -1427,3 +1427,23 @@ cd Android.MeasurementControl
 git remote add origin  git@li:li/Android.MeasurementControl.git
 git remote add KMT  gitolite@kmt:Android.MeasurementControl.git
 git remote add lcj  git@lcj:li/Android.MeasurementControl.git
+
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/linq4j.git
+cd linq4j
+git remote set-url origin  git@li:li/linq4j.git
+git remote add github  git@github.com:julianhyde/linq4j.git
+git remote add KMT  gitolite@kmt:linq4j.git
+git remote add lcj  git@lcj:li/linq4j.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/WorkSpace.git
+cd WorkSpace
+git remote add origin  git@li:li/WorkSpace.git
+git remote add github  git@github.com:LiCijun/WorkSpace.git
+git remote add lcj  git@lcj:li/WorkSpace.git
