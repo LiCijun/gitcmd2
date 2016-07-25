@@ -1250,11 +1250,11 @@ git remote add lcj  git@lcj:li/TestByThirdParty.git
 
 
 cd %~dp0..\
-git.exe clone  --recursive     --progress -v   git@li:li/AndroidLib.git  
-cd AndroidLib
-git remote add origin  git@li:li/AndroidLib.git
-git remote add KMT  gitolite@kmt:AndroidLib.git 
-git remote add lcj  git@lcj:li/AndroidLib.git
+git.exe clone  --recursive     --progress -v   git@li:li/AndroidLibProject.git  
+cd AndroidLibProject
+git remote add origin  git@li:li/AndroidLibProject.git
+git remote add KMT  gitolite@kmt:AndroidLibProject.git 
+git remote add lcj  git@lcj:li/AndroidLibProject.git
 
 
 cd %~dp0..\
@@ -1447,3 +1447,28 @@ cd WorkSpace
 git remote add origin  git@li:li/WorkSpace.git
 git remote add github  git@github.com:LiCijun/WorkSpace.git
 git remote add lcj  git@lcj:li/WorkSpace.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/AndroidCheck.git
+cd AndroidCheck
+git remote add origin  git@li:li/AndroidCheck.git
+git remote add KMT  gitolite@kmt:AndroidCheck.git
+git remote add lcj  git@lcj:li/AndroidCheck.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/MaintenanceDoc.git
+cd MaintenanceDoc
+git remote add origin  git@li:li/MaintenanceDoc.git
+git remote add KMT  gitolite@kmt:MaintenanceDoc.git
+git remote add lcj  git@lcj:li/MaintenanceDoc.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/MaintenanceHHU.git
+cd MaintenanceHHU
+git remote add origin  git@li:li/MaintenanceHHU.git
+git remote add KMT  gitolite@kmt:MaintenanceHHU.git
+git remote add lcj  git@lcj:li/MaintenanceHHU.git
+
