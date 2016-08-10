@@ -1472,3 +1472,18 @@ git remote add origin  git@li:li/MaintenanceHHU.git
 git remote add KMT  gitolite@kmt:MaintenanceHHU.git
 git remote add lcj  git@lcj:li/MaintenanceHHU.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/FssSafeTest.git
+cd FssSafeTest
+git remote add origin  git@li:li/FssSafeTest.git
+git remote add KMT  gitolite@kmt:FssSafeTest.git
+git remote add lcj  git@lcj:li/FssSafeTest.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/DocTemplate.git
+cd DocTemplate
+git remote add origin  git@li:li/DocTemplate.git
+git remote add lcj  git@lcj:li/DocTemplate.git
+git remote add github  git@github.com:LiCijun/DocTemplate.git
+
