@@ -1493,3 +1493,11 @@ cd TP2100
 git remote add origin  git@li:li/TP2100.git
 git remote add KMT  gitolite@kmt:TP2100.git
 git remote add lcj  git@lcj:li/TP2100.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Company.git
+cd Android.Company
+git remote add origin  git@li:li/Android.Company.git
+git remote add KMT  gitolite@kmt:Android.Company.git
+git remote add lcj  git@lcj:li/Android.Company.git
