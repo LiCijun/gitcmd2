@@ -1256,15 +1256,6 @@ git remote add origin  git@li:li/AndroidLibProject.git
 git remote add KMT  gitolite@kmt:AndroidLibProject.git 
 git remote add lcj  git@lcj:li/AndroidLibProject.git
 
-
-cd %~dp0..\
-git.exe clone  --recursive     --progress -v   git@li:li/AndroidLib.git
-cd AndroidLib
-git remote add origin  git@li:li/AndroidLib.git
-git remote add KMT  gitolite@kmt:AndroidLib.git
-git remote add lcj  git@lcj:li/AndroidLib.git
-
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/KeManTest.git
 cd KeManTest
@@ -1487,3 +1478,18 @@ git remote add origin  git@li:li/DocTemplate.git
 git remote add lcj  git@lcj:li/DocTemplate.git
 git remote add github  git@github.com:LiCijun/DocTemplate.git
 
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/TP2100_Doc.git
+cd TP2100_Doc
+git remote add origin  git@li:li/TP2100_Doc.git
+git remote add KMT  gitolite@kmt:TP2100_Doc.git
+git remote add lcj  git@lcj:li/TP2100_Doc.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/TP2100.git
+cd TP2100
+git remote add origin  git@li:li/TP2100.git
+git remote add KMT  gitolite@kmt:TP2100.git
+git remote add lcj  git@lcj:li/TP2100.git
