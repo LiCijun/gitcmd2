@@ -1501,3 +1501,42 @@ cd Android.Company
 git remote add origin  git@li:li/Android.Company.git
 git remote add KMT  gitolite@kmt:Android.Company.git
 git remote add lcj  git@lcj:li/Android.Company.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Linq4j.git
+cd Android.Linq4j
+git remote add origin  git@li:li/Android.Linq4j.git
+git remote add KMT  gitolite@kmt:Android.Linq4j.git
+git remote add lcj  git@lcj:li/Android.Linq4j.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Terminal3761.git
+cd Android.Terminal3761
+git remote add origin  git@li:li/Android.Terminal3761.git
+git remote add KMT  gitolite@kmt:Android.Terminal3761.git
+git remote add lcj  git@lcj:li/Android.Terminal3761.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/CESetGPRS.git
+cd CESetGPRS
+git remote add origin  git@li:li/CESetGPRS.git
+git remote add KMT  gitolite@kmt:CESetGPRS.git
+git remote add lcj  git@lcj:li/CESetGPRS.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/KMTCpuCardOcx.git
+cd KMTCpuCardOcx
+git remote add origin  git@li:li/KMTCpuCardOcx.git
+git remote add KMT  gitolite@kmt:KMTCpuCardOcx.git
+git remote add lcj  git@lcj:li/KMTCpuCardOcx.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/CPU_Card.git
+cd CPU_Card
+git remote add origin  git@li:li/CPU_Card.git
+git remote add KMT  gitolite@kmt:CPU_Card.git
+git remote add lcj  git@lcj:li/CPU_Card.git
+
