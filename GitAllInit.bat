@@ -1540,3 +1540,18 @@ git remote add origin  git@li:li/CPU_Card.git
 git remote add KMT  gitolite@kmt:CPU_Card.git
 git remote add lcj  git@lcj:li/CPU_Card.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/TP2200.git
+cd TP2200
+git remote add origin  git@li:li/TP2200.git
+git remote add KMT  gitolite@kmt:TP2200.git
+git remote add lcj  git@lcj:li/TP2200.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/TP2200_Doc.git
+cd TP2200_Doc
+git remote add origin  git@li:li/TP2200_Doc.git
+git remote add KMT  gitolite@kmt:TP2200_Doc.git
+git remote add lcj  git@lcj:li/TP2200_Doc.git
+
