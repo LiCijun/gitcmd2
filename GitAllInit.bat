@@ -1547,11 +1547,99 @@ git remote add origin  git@li:li/TP2200.git
 git remote add KMT  gitolite@kmt:TP2200.git
 git remote add lcj  git@lcj:li/TP2200.git
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/TP2200_Doc.git
 cd TP2200_Doc
 git remote add origin  git@li:li/TP2200_Doc.git
 git remote add KMT  gitolite@kmt:TP2200_Doc.git
 git remote add lcj  git@lcj:li/TP2200_Doc.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.Hardware.git
+cd Android.Hardware
+git remote add origin  git@li:li/Android.Hardware.git
+git remote add KMT  gitolite@kmt:Android.Hardware.git
+git remote add lcj  git@lcj:li/Android.Hardware.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/SM3.git
+cd SM3
+git remote add origin  git@li:li/SM3.git
+git remote add KMT  gitolite@kmt:SM3.git
+git remote add lcj  git@lcj:li/SM3.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/SM2.git
+cd SM2
+git remote add origin  git@li:li/SM2.git
+git remote add KMT  gitolite@kmt:SM2.git
+git remote add lcj  git@lcj:li/SM2.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/SM4.git
+cd SM4
+git remote add origin  git@li:li/SM4.git
+git remote add KMT  gitolite@kmt:SM4.git
+git remote add lcj  git@lcj:li/SM4.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/3DES.git
+cd 3DES
+git remote add origin  git@li:li/3DES.git
+git remote add KMT  gitolite@kmt:3DES.git
+git remote add lcj  git@lcj:li/3DES.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/HHUConfig.git
+cd HHUConfig
+git remote add origin  git@li:li/HHUConfig.git
+git remote add KMT  gitolite@kmt:HHUConfig.git
+git remote add lcj  git@lcj:li/HHUConfig.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/WinCE.AES.git
+cd WinCE.AES
+git remote add origin  git@li:li/WinCE.AES.git
+git remote add KMT  gitolite@kmt:WinCE.AES.git
+git remote add lcj  git@lcj:li/WinCE.AES.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/NSecureUnit.git
+cd NSecureUnit
+git remote add origin  git@li:li/NSecureUnit.git
+git remote add KMT  gitolite@kmt:NSecureUnit.git
+git remote add lcj  git@lcj:li/NSecureUnit.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.ResourceManager.git
+cd Android.ResourceManager
+git remote add origin  git@li:li/Android.ResourceManager.git
+git remote add KMT  gitolite@kmt:Android.ResourceManager.git
+git remote add lcj  git@lcj:li/Android.ResourceManager.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/UsbKey.git
+cd UsbKey
+git remote add origin  git@li:li/UsbKey.git
+git remote add KMT  gitolite@kmt:UsbKey.git
+git remote add lcj  git@lcj:li/UsbKey.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/UsbKeyProject.git
+cd UsbKeyProject
+git remote add origin  git@li:li/UsbKeyProject.git
+git remote add KMT  gitolite@kmt:UsbKeyProject.git
+git remote add lcj  git@lcj:li/UsbKeyProject.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/AndroidProxy.git
+cd AndroidProxy
+git remote add origin  git@li:li/AndroidProxy.git
+git remote add KMT  gitolite@kmt:AndroidProxy.git
+git remote add lcj  git@lcj:li/AndroidProxy.git
 
