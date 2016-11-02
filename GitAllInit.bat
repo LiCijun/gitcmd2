@@ -1586,9 +1586,9 @@ git remote add lcj  git@lcj:li/SM4.git
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/3DES.git
 cd 3DES
-git remote add origin  git@li:li/3DES.git
+git remote add origin  git@li:li/DES3.git
 git remote add KMT  gitolite@kmt:3DES.git
-git remote add lcj  git@lcj:li/3DES.git
+git remote add lcj  git@lcj:li/DES3.git
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/HHUConfig.git
@@ -1637,9 +1637,23 @@ git remote add lcj  git@lcj:li/UsbKeyProject.git
 
 
 cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/PosHSM.git
+cd PosHSM
+git remote add origin  git@li:li/PosHSM.git
+git remote add KMT  gitolite@kmt:PosHSM.git
+git remote add lcj  git@lcj:li/PosHSM.git
+
+
+cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/AndroidProxy.git
 cd AndroidProxy
 git remote add origin  git@li:li/AndroidProxy.git
 git remote add KMT  gitolite@kmt:AndroidProxy.git
 git remote add lcj  git@lcj:li/AndroidProxy.git
 
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/BeiJingExpressDelivery.git
+cd BeiJingExpressDelivery
+git remote add origin  git@li:li/BeiJingExpressDelivery.git
+git remote add KMT  gitolite@kmt:BeiJingExpressDelivery.git
+git remote add lcj  git@lcj:li/BeiJingExpressDelivery.git
