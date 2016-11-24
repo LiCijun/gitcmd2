@@ -1657,3 +1657,12 @@ cd BeiJingExpressDelivery
 git remote add origin  git@li:li/BeiJingExpressDelivery.git
 git remote add KMT  gitolite@kmt:BeiJingExpressDelivery.git
 git remote add lcj  git@lcj:li/BeiJingExpressDelivery.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/FieldCheck.git
+cd FieldCheck
+git remote add origin  git@li:li/FieldCheck.git
+git remote add KMT  gitolite@kmt:FieldCheck.git
+git remote add lcj  git@lcj:li/FieldCheck.git
