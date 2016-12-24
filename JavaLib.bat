@@ -1,7 +1,7 @@
 @echo off
-for /f "delims=" %%i in ('dir ..\*JavaLib /s /b /ad') do (
-     echo %%i 
-     cd %%i 
+for /f "delims=" %%a in ('dir ..\*JavaLib /s /b /ad') do (
+     echo %%a 
+     cd %%a
      git.exe pull --progress --no-rebase -v "origin" master
      echo.
 )
