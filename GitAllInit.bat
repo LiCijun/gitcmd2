@@ -1,3 +1,41 @@
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/HZWQInterface.git
+cd HZWQInterface
+git remote add origin  git@li:li/HZWQInterface.git
+git remote add KMT  gitolite@kmt:HZWQInterface.git
+git remote add lcj  git@lcj:li/HZWQInterface.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/RapiVCLib.git
+cd RapiVCLib
+git remote add origin  git@li:li/RapiVCLib.git
+git remote add KMT  gitolite@kmt:RapiVCLib.git
+git remote add lcj  git@lcj:li/RapiVCLib.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/TP2000Doc.git
+cd TP2000Doc
+git remote add origin  git@li:li/TP2000Doc.git
+git remote add KMT  gitolite@kmt:TP2000Doc.git
+git remote add lcj  git@lcj:li/TP2000Doc.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/TP2000.git
+cd TP2000
+git remote add origin  git@li:li/TP2000.git
+git remote add KMT  gitolite@kmt:TP2000.git
+git remote add lcj  git@lcj:li/TP2000.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/InstallShield.git
+cd InstallShield
+git remote add origin  git@li:li/InstallShield.git
+git remote add KMT  gitolite@kmt:InstallShield.git
+git remote add lcj  git@lcj:li/InstallShield.git
+
+
+
 cd %~dp0..\
 git.exe clone  --recursive   --progress -v   git@li:bit.git
 cd bit
@@ -1666,3 +1704,6 @@ cd FieldCheck
 git remote add origin  git@li:li/FieldCheck.git
 git remote add KMT  gitolite@kmt:FieldCheck.git
 git remote add lcj  git@lcj:li/FieldCheck.git
+
+
+
