@@ -1,10 +1,18 @@
 
 cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/SecUnit2.git
+cd SecUnit2
+git remote add origin  git@li:li/SecUnit2.git
+git remote add KMT  gitolite@kmt:SecUnit2.git
+git remote add lcj  git@lcj:li/SecUnit2.git
+
+cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/HZWQInterface.git
 cd HZWQInterface
 git remote add origin  git@li:li/HZWQInterface.git
 git remote add KMT  gitolite@kmt:HZWQInterface.git
 git remote add lcj  git@lcj:li/HZWQInterface.git
+
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/RapiVCLib.git
