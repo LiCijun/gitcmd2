@@ -6,6 +6,16 @@ git remote add origin  git@li:li/SecUnit2.git
 git remote add KMT  gitolite@kmt:SecUnit2.git
 git remote add lcj  git@lcj:li/SecUnit2.git
 
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.SPI.git
+cd Android.SPI
+git remote add origin  git@li:li/Android.SPI.git
+git remote add KMT  gitolite@kmt:Android.SPI.git
+git remote add lcj  git@lcj:li/Android.SPI.git
+
+
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/HZWQInterface.git
 cd HZWQInterface
