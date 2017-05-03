@@ -9,6 +9,24 @@ git remote add lcj  git@lcj:li/SecUnit2.git
 
 
 cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/LiKey.git
+cd LiKey
+git remote add origin  git@li:li/LiKey.git
+git remote add KMT  gitolite@kmt:LiKey.git
+git remote add lcj  git@lcj:li/LiKey.git
+git remote add github  git@github.com:LiCijun/LiKey.git
+
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/APP.git
+cd APP
+git remote add origin  git@li:li/APP.git
+git remote add KMT  gitolite@kmt:APP.git
+git remote add lcj  git@lcj:li/APP.git
+
+
+cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/Android.SPI.git
 cd Android.SPI
 git remote add origin  git@li:li/Android.SPI.git
