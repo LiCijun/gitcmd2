@@ -1,5 +1,50 @@
 
 cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.RESAM.git
+cd Android.RESAM
+git remote add origin  git@li:li/Android.RESAM.git
+git remote add KMT  gitolite@kmt:Android.RESAM.git
+git remote add lcj  git@lcj:li/Android.RESAM.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/Android.ISO7816.git
+cd Android.ISO7816
+git remote add origin  git@li:li/Android.ISO7816.git
+git remote add KMT  gitolite@kmt:Android.ISO7816.git
+git remote add lcj  git@lcj:li/Android.ISO7816.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/P55.git
+cd P55
+git remote add origin  git@li:li/P55.git
+git remote add KMT  gitolite@kmt:P55.git
+git remote add lcj  git@lcj:li/P55.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/P56.git
+cd P56
+git remote add origin  git@li:li/P56.git
+git remote add KMT  gitolite@kmt:P56.git
+git remote add lcj  git@lcj:li/P56.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/P57.git
+cd P57
+git remote add origin  git@li:li/P57.git
+git remote add KMT  gitolite@kmt:P57.git
+git remote add lcj  git@lcj:li/P57.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   git@li:li/pm.git
+cd pm
+git remote add origin  git@li:li/pm.git
+git remote add KMT  gitolite@kmt:pm.git
+git remote add lcj  git@lcj:li/pm.git
+
+
+cd %~dp0..\
 git.exe clone  --recursive     --progress -v   git@li:li/SecUnit2.git
 cd SecUnit2
 git remote add origin  git@li:li/SecUnit2.git
