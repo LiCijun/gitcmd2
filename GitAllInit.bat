@@ -1,3 +1,8 @@
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/ADoc.git
+cd ADoc
+git remote add origin  li:li/ADoc.git
+git remote add lcj  lcj:li/ADoc.git
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   li:li/Android.Hardware.git
