@@ -1,4 +1,18 @@
 cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/WinCE.PeripheralProtocol.git
+cd WinCE.PeripheralProtocol
+git remote add origin  li:li/WinCE.PeripheralProtocol.git
+git remote add KMT  kmt:WinCE.PeripheralProtocol.git
+git remote add lcj  lcj:li/WinCE.PeripheralProtocol.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/Android.RFIDTESAM.git
+cd Android.RFIDTESAM
+git remote add origin  li:li/Android.RFIDTESAM.git
+git remote add KMT  kmt:Android.RFIDTESAM.git
+git remote add lcj  lcj:li/Android.RFIDTESAM.git
+
+cd %~dp0..\
 git.exe clone  --recursive     --progress -v   li:li/ADoc.git
 cd ADoc
 git remote add origin  li:li/ADoc.git
@@ -11,6 +25,14 @@ git remote add origin  li:li/Android.Hardware.git
 git remote add KMT  kmt:Android.Hardware.git
 git remote add lcj  lcj:li/Android.Hardware.git
 git remote add kgithub  kgithub:Keymantek/hardware.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/CumulativeProtocolOneDecoder.git
+cd CumulativeProtocolOneDecoder
+git remote add origin  li:li/CumulativeProtocolOneDecoder.git
+git remote add KMT  kmt:CumulativeProtocolOneDecoder.git
+git remote add lcj  lcj:li/CumulativeProtocolOneDecoder.git
+
 
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   li:li/AndroidSDK.git
@@ -1427,8 +1449,6 @@ git remote add origin  li:li/AndroidHHUdoc.git
 git remote add KMT  kmt:AndroidHHUdoc.git
 git remote add lcj  lcj:li/AndroidHHUdoc.git
 
-
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   li:li/Eclipse.git
 cd Eclipse
@@ -1504,7 +1524,6 @@ git remote add KMT  kmt:Android.Meter645.git
 git remote add lcj  lcj:li/Android.Meter645.git
 
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   li:li/Android.DeviceInfo.git
 cd Android.DeviceInfo
@@ -1518,8 +1537,6 @@ cd Android.Meter
 git remote add origin  li:li/Android.Meter.git
 git remote add KMT  kmt:Android.Meter.git
 git remote add lcj  lcj:li/Android.Meter.git
-
-
 
 
 cd %~dp0..\
@@ -1757,7 +1774,6 @@ git remote add KMT  kmt:NSecureUnit.git
 git remote add lcj  lcj:li/NSecureUnit.git
 
 
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   li:li/Android.ResourceManager.git
 cd Android.ResourceManager
@@ -1802,14 +1818,9 @@ git remote add origin  li:li/BeiJingExpressDelivery.git
 git remote add KMT  kmt:BeiJingExpressDelivery.git
 git remote add lcj  lcj:li/BeiJingExpressDelivery.git
 
-
-
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   li:li/FieldCheck.git
 cd FieldCheck
 git remote add origin  li:li/FieldCheck.git
 git remote add KMT  kmt:FieldCheck.git
 git remote add lcj  lcj:li/FieldCheck.git
-
-
-
