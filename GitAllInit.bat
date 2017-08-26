@@ -6,6 +6,15 @@ git remote add KMT  kmt:WinCE.PeripheralProtocol.git
 git remote add lcj  lcj:li/WinCE.PeripheralProtocol.git
 
 cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/CEPRI698TEST.git
+cd CEPRI698TEST
+git remote add origin  li:li/CEPRI698TEST.git
+git remote add KMT  kmt:CEPRI698TEST.git
+git remote add lcj  lcj:li/CEPRI698TEST.git
+
+
+
+cd %~dp0..\
 git.exe clone  --recursive     --progress -v   li:li/Android.RFIDTESAM.git
 cd Android.RFIDTESAM
 git remote add origin  li:li/Android.RFIDTESAM.git
