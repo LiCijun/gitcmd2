@@ -1,3 +1,102 @@
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/fss2ejb.git
+cd fss2ejb
+git remote add origin  li:li/fss2ejb.git
+git remote add KMT  kmt:fss2ejb.git
+git remote add lcj  lcj:li/fss2ejb.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/ecdcd.git
+cd ecdcd
+git remote add origin  li:li/ecdcd.git
+git remote add KMT  kmt:ecdcd.git
+git remote add lcj  lcj:li/ecdcd.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/ecdcdAssist.git
+cd ecdcdAssist
+git remote add origin  li:li/ecdcdAssist.git
+git remote add KMT  kmt:ecdcdAssist.git
+git remote add lcj  lcj:li/ecdcdAssist.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/ChongQingMeterRead.git
+cd ChongQingMeterRead
+git remote add origin  li:li/ChongQingMeterRead.git
+git remote add KMT  kmt:ChongQingMeterRead.git
+git remote add lcj  lcj:li/ChongQingMeterRead.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/bjst.git
+cd bjst
+git remote add origin  li:li/bjst.git
+git remote add KMT  kmt:bjst.git
+git remote add lcj  lcj:li/bjst.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/LiJiangHHU.git
+cd LiJiangHHU
+git remote add origin  li:li/LiJiangHHU.git
+git remote add KMT  kmt:LiJiangHHU.git
+git remote add lcj  lcj:li/LiJiangHHU.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/andsrc.git
+cd andsrc
+git remote add origin  li:li/andsrc.git
+git remote add KMT  kmt:andsrc.git
+git remote add lcj  lcj:li/andsrc.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/Android.ISerialPort.git
+cd Android.ISerialPort
+git remote add origin  li:li/Android.ISerialPort.git
+git remote add KMT  kmt:Android.ISerialPort.git
+git remote add lcj  lcj:li/Android.ISerialPort.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/ICepriHardware.git
+cd ICepriHardware
+git remote add origin  li:li/ICepriHardware.git
+git remote add KMT  kmt:ICepriHardware.git
+git remote add lcj  lcj:li/ICepriHardware.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/CSG_Doc.git
+cd CSG_Doc
+git remote add origin  li:li/CSG_Doc.git
+git remote add KMT  kmt:CSG_Doc.git
+git remote add lcj  lcj:li/CSG_Doc.git
+
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/Android.PeripheralProtocol.git
+cd Android.PeripheralProtocol
+git remote add origin  li:li/Android.PeripheralProtocol.git
+git remote add KMT  kmt:Android.PeripheralProtocol.git
+git remote add lcj  lcj:li/Android.PeripheralProtocol.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/Android.BlueTooth.git
+cd Android.BlueTooth
+git remote add origin  li:li/Android.BlueTooth.git
+git remote add KMT  kmt:Android.BlueTooth.git
+git remote add lcj  lcj:li/Android.BlueTooth.git
+
+cd %~dp0..\
+git.exe clone  --recursive     --progress -v   li:li/UHFTEST.git
+cd UHFTEST
+git remote add origin  li:li/UHFTEST.git
+git remote add KMT  kmt:UHFTEST.git
+git remote add lcj  lcj:li/UHFTEST.git
+
+
+
 cd %~dp0..\
 git.exe clone  --recursive     --progress -v   li:li/WinCE.PeripheralProtocol.git
 cd WinCE.PeripheralProtocol
@@ -202,7 +301,9 @@ git remote add lcj  lcj:cmd.git
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   li:connect.git
 cd connect
+git remote add origin  li:li/connect.git
 git remote add lcj  lcj:connect.git
+git remote add KMT  kmt:connect.git
 
 cd %~dp0..\
 git.exe clone  --recursive       --progress -v   li:demo.git

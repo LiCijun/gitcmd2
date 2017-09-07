@@ -1,0 +1,1 @@
+@Remote.bat>status.txt
