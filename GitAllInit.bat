@@ -6,13 +6,6 @@ git remote add li  li:li/u950.git
 git remote add KMT  kmt:u950.git
 git remote add lcj  lcj:li/u950.git
 
-cd %~dp0..\
-mkdir u950
-cd u950
-git init
-git remote add li  li:li/u950.git
-git remote add KMT  kmt:u950.git
-git remote add lcj  lcj:li/u950.git
 
 
 cd %~dp0..\
@@ -49,17 +42,6 @@ git init
 git remote add li  li:li/TP2400Doc.git
 git remote add KMT  kmt:TP2400Doc.git
 git remote add lcj  lcj:li/TP2400Doc.git
-
-
-cd %~dp0..\
-mkdir SealInfo
-cd SealInfo
-git init
-git remote add li  li:li/SealInfo.git
-git remote add KMT  kmt:SealInfo.git
-git remote add lcj  lcj:li/SealInfo.git
-
-
 
 cd %~dp0..\
 mkdir repoFwj
@@ -173,13 +155,7 @@ git remote add li  li:li/mfhhdMCU.git
 git remote add KMT  kmt:mfhhdMCU.git
 git remote add lcj  lcj:li/mfhhdMCU.git
 
-cd %~dp0..\
-mkdir LiJiangHHU
-cd LiJiangHHU
-git init
-git remote add li  li:li/LiJiangHHU.git
-git remote add KMT  kmt:LiJiangHHU.git
-git remote add lcj  lcj:li/LiJiangHHU.git
+
 
 cd %~dp0..\
 mkdir HHUPublicKey
@@ -633,6 +609,7 @@ git remote add li  li:demo.git
 cd %~dp0..\
 mkdir dnspodclientlite
 cd dnspodclientlite
+git init
 git remote add lcj  lcj:dnspodclientlite.git
 git remote add li  li:dnspodclientlite.git
 
@@ -1187,12 +1164,7 @@ git remote add KMT kmt:gitolite-admin.git
 git remote add li  li:li/gitolite-admin-KMT.git
 git remote add lcj  lcj:li/gitolite-admin-KMT.git
 
-cd %~dp0..\
-mkdir u950
-cd u950
-git init
-git remote add li  li:li/u950.git
-git remote add lcj  lcj:li/u950.git
+
 
 cd %~dp0..\
 mkdir gitcmd
@@ -1217,13 +1189,6 @@ git init
 git remote add li  li:li/WinCEUILib.git
 git remote add KMT  kmt:WinCEUILib.git 
 git remote add lcj  lcj:li/WinCEUILib.git
-
-cd %~dp0..\
-mkdir InstallShield
-cd InstallShield
-git init
-git remote add li  li:li/InstallShield.git
-git remote add lcj  lcj:li/InstallShield.git
 
 cd %~dp0..\
 mkdir xiamen
@@ -1821,13 +1786,6 @@ cd WinCE.UHF
 git init
 git remote add li  li:li/WinCE.UHF.git
 git remote add lcj  lcj:li/WinCE.UHF.git
-
-cd %~dp0..\
-mkdir www.keymantek.com
-cd www.keymantek.com
-git init
-git remote add li  li:li/www.keymantek.com.git
-git remote add lcj  lcj:li/www.keymantek.com.git
 
 cd %~dp0..\
 mkdir Thunderbird
