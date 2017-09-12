@@ -1,11 +1,18 @@
 cd %~dp0..\
+mkdir AppRelease
+cd AppRelease
+git init
+git remote add li  li:li/AppRelease.git
+git remote add KMT  kmt:AppRelease.git
+git remote add lcj  lcj:li/AppRelease.git
+
+cd %~dp0..\
 mkdir u950
 cd u950
 git init
 git remote add li  li:li/u950.git
 git remote add KMT  kmt:u950.git
 git remote add lcj  lcj:li/u950.git
-
 
 
 cd %~dp0..\
