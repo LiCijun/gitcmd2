@@ -1,10 +1,67 @@
 cd %~dp0..\
+mkdir SafeTest2017
+cd SafeTest2017
+git init
+git remote add li  li:li/SafeTest2017.git
+git remote add KMT  kmt:SafeTest2017.git
+git remote add lcj  lcj:li/SafeTest2017.git
+
+
+cd %~dp0..\
+mkdir listen1_desktop
+cd listen1_desktop
+git init
+git remote add github github:listen1/listen1_desktop.git
+
+
+cd %~dp0..\
+mkdir listen1
+cd listen1
+git init
+git remote add github github:listen1/listen1.git
+
+
+cd %~dp0..\
+mkdir angular-soundmanager2
+cd angular-soundmanager2
+git init
+git remote add github github:listen1/angular-soundmanager2.git
+
+
+
+cd %~dp0..\
+mkdir listen1_chrome_extension
+cd listen1_chrome_extension
+git init
+git remote add github github:listen1/listen1_chrome_extension
+
+
+
+cd %~dp0..\
+mkdir gitApp
+cd gitApp
+git init
+git remote add github github:git/git
+
+
+cd %~dp0..\
 mkdir AppRelease
 cd AppRelease
 git init
 git remote add li  li:li/AppRelease.git
 git remote add KMT  kmt:AppRelease.git
 git remote add lcj  lcj:li/AppRelease.git
+
+
+
+cd %~dp0..\
+mkdir HxGroupHuNan
+cd HxGroupHuNan
+git init
+git remote add li  li:li/HxGroupHuNan.git
+git remote add KMT  kmt:HxGroupHuNan.git
+git remote add lcj  lcj:li/HxGroupHuNan.git
+
 
 cd %~dp0..\
 mkdir u950
