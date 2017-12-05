@@ -1,11 +1,28 @@
 cd %~dp0..\
+mkdir TP2000_Android
+cd TP2000_Android
+git init
+git remote add li  li:li/TP2000_Android.git
+git remote add KMT  kmt:TP2000_Android.git
+git remote add lcj  lcj:li/TP2000_Android.git
+
+
+cd %~dp0..\
+mkdir DQHC
+cd DQHC
+git init
+git remote add li  li:li/DQHC.git
+git remote add KMT  kmt:DQHC.git
+git remote add lcj  lcj:li/DQHC.git
+
+
+cd %~dp0..\
 mkdir SafeTest2017
 cd SafeTest2017
 git init
 git remote add li  li:li/SafeTest2017.git
 git remote add KMT  kmt:SafeTest2017.git
 git remote add lcj  lcj:li/SafeTest2017.git
-
 
 cd %~dp0..\
 mkdir listen1_desktop
