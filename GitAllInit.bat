@@ -1387,13 +1387,6 @@ git remote add li  li:li/systemos.git
 git remote add KMT  kmt:systemos.git 
 git remote add lcj  lcj:li/systemos.git
 
-cd %~dp0..\
-mkdir pmcm
-cd pmcm
-git init
-git remote add li  li:li/pmcm.git
-git remote add KMT  kmt:pmcm.git 
-git remote add lcj  lcj:li/pmcm.git
 
 cd %~dp0..\
 mkdir CEPRI_V1.7.1028OK

@@ -32,3 +32,14 @@ git init
 git remote add KMT kmt:gitolite-admin.git
 git remote add li  li:li/gitolite-admin-KMT.git
 git remote add lcj  lcj:li/gitolite-admin-KMT.git
+
+
+
+cd %~dp0..\
+mkdir pmcm
+cd pmcm
+git init
+git remote add li  li:li/pmcm.git
+git remote add KMT  kmt:pmcm.git 
+git remote add lcj  lcj:li/pmcm.git
+git remote add github  github:LiCijun/pmcm.git
