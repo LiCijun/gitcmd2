@@ -1,5 +1,14 @@
 
 cd %~dp0..\
+mkdir pmc
+cd pmc
+git init
+git remote add li  li:li/pmc.git
+git remote add KMT  kmt:pmc.git 
+git remote add lcj  lcj:li/pmc.git
+
+
+cd %~dp0..\
 mkdir liwince
 cd liwince
 git init
