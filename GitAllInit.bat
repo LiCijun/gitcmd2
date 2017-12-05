@@ -829,12 +829,9 @@ cd liwin32
 git init
 git remote add lcj  lcj:liwin32.git
 git remote add li  li:liwin32.git
-cd %~dp0..\
-mkdir liwince
-cd liwince
-git init
-git remote add lcj  lcj:liwince.git
-git remote add li  li:liwince.git
+
+
+
 cd %~dp0..\
 mkdir mercurial
 cd mercurial
@@ -1016,13 +1013,7 @@ git init
 git remote add lcj  lcj:li/hhumainYJ.git
 git remote add li  li:li/hhumainYJ.git
 
-cd %~dp0..\
-mkdir hhutype
-cd hhutype
-git init
-git remote add KMT  kmt:hhutype.git
-git remote add lcj  lcj:li/hhutype.git
-git remote add li  li:li/hhutype.git
+
 
 cd %~dp0..\
 mkdir k36
@@ -1236,14 +1227,6 @@ git init
 git remote add li  li:li/certification.git
 git remote add github  github:LiCijun/certification.git
 git remote add lcj  lcj:li/certification.git
-
-cd %~dp0..\
-mkdir gitolite-admin-KMT
-cd gitolite-admin-KMT
-git init
-git remote add KMT kmt:gitolite-admin.git
-git remote add li  li:li/gitolite-admin-KMT.git
-git remote add lcj  lcj:li/gitolite-admin-KMT.git
 
 
 
