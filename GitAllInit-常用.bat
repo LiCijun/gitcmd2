@@ -1,3 +1,12 @@
+cd %~dp0..\
+mkdir AppRelease
+cd AppRelease
+git init
+git remote add li  li:li/AppRelease.git
+git remote add KMT  kmt:AppRelease.git
+git remote add lcj  lcj:li/AppRelease.git
+
+
 
 cd %~dp0..\
 mkdir pmc
