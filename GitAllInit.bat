@@ -2251,15 +2251,6 @@ git remote add lcj  lcj:li/linq4j.git
 
 
 
-cd %~dp0..\
-mkdir WorkSpace
-cd WorkSpace
-git init
-git remote add li  li:li/WorkSpace.git
-git remote add github  github:LiCijun/WorkSpace.git
-git remote add lcj  lcj:li/WorkSpace.git
-
-
 
 cd %~dp0..\
 mkdir AndroidCheck
