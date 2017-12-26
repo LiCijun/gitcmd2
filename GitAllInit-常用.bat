@@ -6,6 +6,15 @@ git remote add li  li:li/WinCE.GPRS.git
 git remote add KMT  kmt:WinCE.GPRS.git
 git remote add lcj  lcj:li/WinCE.GPRS.git
 
+cd %~dp0..\
+mkdir TP2600
+cd TP2600
+git init
+git remote add li  li:li/TP2600.git
+git remote add KMT   kmt:TP2600.git
+git remote add lcj  lcj:li/TP2600.git
+
+
 
 cd %~dp0..\
 mkdir WorkSpace
