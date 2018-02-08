@@ -954,19 +954,6 @@ git init
 git remote add KMT  kmt:expressdelivery.git
 git remote add lcj  lcj:li/expressdelivery.git
 git remote add li  li:li/expressdelivery.git
-cd %~dp0..\
-mkdir firefox
-cd firefox
-git init
-git remote add lcj  lcj:li/firefox.git
-git remote add li  li:li/firefox.git
-
-cd %~dp0..\
-mkdir foxmail
-cd foxmail
-git init
-git remote add lcj  lcj:li/foxmail.git
-git remote add li  li:li/foxmail.git
 
 cd %~dp0..\
 mkdir fss2doc

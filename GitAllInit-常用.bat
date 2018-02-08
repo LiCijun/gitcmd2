@@ -7,6 +7,23 @@ git remote add KMT  kmt:WinCE.GPRS.git
 git remote add lcj  lcj:li/WinCE.GPRS.git
 
 cd %~dp0..\
+mkdir Java.csg.device.utils
+cd Java.csg.device.utils
+git init
+git remote add li  li:li/Java.csg.device.utils.git
+git remote add KMT   kmt:Java.csg.device.utils.git
+git remote add lcj  lcj:li/Java.csg.device.utils.git
+
+cd %~dp0..\
+mkdir ScanService
+cd ScanService
+git init
+git remote add li  li:li/ScanService.git
+git remote add KMT   kmt:ScanService.git
+git remote add lcj  lcj:li/ScanService.git
+
+
+cd %~dp0..\
 mkdir TP2600
 cd TP2600
 git init
