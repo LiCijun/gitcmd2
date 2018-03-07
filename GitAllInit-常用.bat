@@ -1,4 +1,21 @@
 cd %~dp0..\
+mkdir UHF
+cd UHF
+git init
+git remote add li  li:li/UHF.git
+git remote add KMT   kmt:UHF.git
+git remote add lcj  lcj:li/UHF.git
+
+cd %~dp0..\
+mkdir AndroidLibProject
+cd AndroidLibProject
+git init
+git remote add li  li:li/AndroidLibProject.git
+git remote add KMT   kmt:AndroidLibProject.git
+git remote add lcj  lcj:li/AndroidLibProject.git
+
+
+cd %~dp0..\
 mkdir WinCE.GPRS
 cd WinCE.GPRS
 git init
