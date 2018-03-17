@@ -14,6 +14,12 @@ git remote add li  li:li/AndroidLibProject.git
 git remote add KMT   kmt:AndroidLibProject.git
 git remote add lcj  lcj:li/AndroidLibProject.git
 
+cd %~dp0..\
+mkdir ADoc
+cd ADoc
+git init
+git remote add li  li:li/ADoc.git
+git remote add lcj  lcj:li/ADoc.git
 
 cd %~dp0..\
 mkdir WinCE.GPRS

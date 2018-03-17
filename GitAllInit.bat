@@ -457,12 +457,7 @@ git remote add li  li:li/Android.RFIDTESAM.git
 git remote add KMT  kmt:Android.RFIDTESAM.git
 git remote add lcj  lcj:li/Android.RFIDTESAM.git
 
-cd %~dp0..\
-mkdir ADoc
-cd ADoc
-git init
-git remote add li  li:li/ADoc.git
-git remote add lcj  lcj:li/ADoc.git
+
 
 cd %~dp0..\
 mkdir Android.Hardware
