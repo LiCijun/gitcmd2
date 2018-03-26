@@ -212,13 +212,7 @@ git remote add lcj  lcj:li/p35doc.git
 
 
 
-cd %~dp0..\
-mkdir oscmsp
-cd oscmsp
-git init
-git remote add li  li:li/oscmsp.git
-git remote add KMT  kmt:oscmsp.git
-git remote add lcj  lcj:li/oscmsp.git
+
 
 cd %~dp0..\
 mkdir mfhhdMCU
@@ -546,28 +540,6 @@ git remote add li  li:li/pm.git
 git remote add KMT  kmt:pm.git
 git remote add lcj  lcj:li/pm.git
 
-
-cd %~dp0..\
-mkdir SecUnit2
-cd SecUnit2
-git init
-git remote add li  li:li/SecUnit2.git
-git remote add KMT  kmt:SecUnit2.git
-git remote add lcj  lcj:li/SecUnit2.git
-
-
-
-cd %~dp0..\
-mkdir LiKey
-cd LiKey
-git init
-git remote add li  li:li/LiKey.git
-git remote add KMT  kmt:LiKey.git
-git remote add lcj  lcj:li/LiKey.git
-git remote add github  github:LiCijun/LiKey.git
-
-
-
 cd %~dp0..\
 mkdir APP
 cd APP
@@ -723,12 +695,6 @@ git init
 git remote add lcj  lcj:git.git
 git remote add li  li:git.git
 
-cd %~dp0..\
-mkdir gitolite-admin
-cd gitolite-admin
-git init
-git remote add lcj  lcj:gitolite-admin.git
-git remote add li  li:gitolite-admin.git
 
 cd %~dp0..\
 mkdir gpgkey
@@ -796,12 +762,7 @@ git init
 git remote add lcj  lcj:km25.git
 git remote add li  li:km25.git
 
-cd %~dp0..\
-mkdir kmtdoc
-cd kmtdoc
-git init
-git remote add lcj  lcj:kmtdoc.git
-git remote add li  li:kmtdoc.git
+
 
 cd %~dp0..\
 mkdir lidb
@@ -1056,12 +1017,7 @@ git remote add KMT  kmt:p31.git
 git remote add li  li:li/p31.git
 git remote add lcj  lcj:li/p31.git
 
-cd %~dp0..\
-mkdir protocol
-cd protocol
-git init
-git remote add lcj  lcj:li/protocol.git
-git remote add li  li:li/protocol.git
+
 cd %~dp0..\
 mkdir proxy
 cd proxy

@@ -7,6 +7,69 @@ git remote add KMT   kmt:UHF.git
 git remote add lcj  lcj:li/UHF.git
 
 cd %~dp0..\
+mkdir kmtdoc
+cd kmtdoc
+git init
+git remote add lcj  lcj:kmtdoc.git
+git remote add li  li:kmtdoc.git
+
+
+cd %~dp0..\
+mkdir protocol
+cd protocol
+git init
+git remote add lcj  lcj:li/protocol.git
+git remote add li  li:li/protocol.git
+
+
+cd %~dp0..\
+mkdir tv
+cd tv
+git init
+git remote add li  li:li/tv.git
+git remote add lcj  lcj:li/tv.git
+
+cd %~dp0..\
+mkdir oscmsp
+cd oscmsp
+git init
+git remote add li  li:li/oscmsp.git
+git remote add KMT  kmt:oscmsp.git
+git remote add lcj  lcj:li/oscmsp.git
+
+cd %~dp0..\
+mkdir gitolite-admin
+cd gitolite-admin
+git init
+git remote add lcj  lcj:gitolite-admin.git
+git remote add li  li:gitolite-admin.git
+
+cd %~dp0..\
+mkdir SecUnit2
+cd SecUnit2
+git init
+git remote add li  li:li/SecUnit2.git
+git remote add KMT  kmt:SecUnit2.git
+git remote add lcj  lcj:li/SecUnit2.git
+
+cd %~dp0..\
+mkdir LiKey
+cd LiKey
+git init
+git remote add li  li:li/LiKey.git
+git remote add KMT  kmt:LiKey.git
+git remote add lcj  lcj:li/LiKey.git
+git remote add github  github:LiCijun/LiKey.git
+
+cd %~dp0..\
+mkdir TP2300
+cd TP2300
+git init
+git remote add li  li:li/TP2300.git
+git remote add KMT   kmt:TP2300.git
+git remote add lcj  lcj:li/TP2300.git
+
+cd %~dp0..\
 mkdir AndroidLibProject
 cd AndroidLibProject
 git init
@@ -54,8 +117,6 @@ git remote add li  li:li/TP2600.git
 git remote add KMT   kmt:TP2600.git
 git remote add lcj  lcj:li/TP2600.git
 
-
-
 cd %~dp0..\
 mkdir WorkSpace
 cd WorkSpace
@@ -63,8 +124,6 @@ git init
 git remote add li  li:li/WorkSpace.git
 git remote add github  github:LiCijun/WorkSpace.git
 git remote add lcj  lcj:li/WorkSpace.git
-
-
 
 cd %~dp0..\
 mkdir AppRelease
@@ -82,8 +141,6 @@ git init
 git remote add li  li:li/CEPRICheck.git
 git remote add KMT  kmt:CEPRICheck.git
 git remote add lcj  lcj:li/CEPRICheck.git
-
-
 
 cd %~dp0..\
 mkdir HHUConfigForPC
@@ -174,16 +231,6 @@ git init
 git remote add li  li:li/certification.git
 git remote add github  github:LiCijun/certification.git
 git remote add lcj  lcj:li/certification.git
-
-
-cd %~dp0..\
-mkdir LiKey
-cd LiKey
-git init
-git remote add li  li:li/LiKey.git
-git remote add KMT  kmt:LiKey.git
-git remote add lcj  lcj:li/LiKey.git
-git remote add github  github:LiCijun/LiKey.git
 
 cd %~dp0..\
 mkdir hhutype
