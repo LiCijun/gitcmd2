@@ -2224,13 +2224,6 @@ git remote add KMT  kmt:FssSafeTest.git
 git remote add lcj  lcj:li/FssSafeTest.git
 
 
-cd %~dp0..\
-mkdir DocTemplate
-cd DocTemplate
-git init
-git remote add li  li:li/DocTemplate.git
-git remote add lcj  lcj:li/DocTemplate.git
-git remote add github  github:LiCijun/DocTemplate.git
 
 
 cd %~dp0..\
