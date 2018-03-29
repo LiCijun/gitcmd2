@@ -1,3 +1,57 @@
+@echo off  
+  
+:: BatchGotAdmin  
+:-------------------------------------  
+REM  --> Check for permissions  
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"  
+  
+REM --> If error flag set, we do not have admin.  
+if '%errorlevel%' NEQ '0' (  
+    echo Requesting administrative privileges...  
+    goto UACPrompt  
+) else ( goto gotAdmin )  
+  
+:UACPrompt  
+    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"  
+    echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"  
+  
+    "%temp%\getadmin.vbs"  
+    exit /B  
+  
+:gotAdmin  
+    if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )  
+    pushd "%CD%"  
+    CD /D "%~dp0"  
+:--------------------------------------  
+@echo off
+
+
+cd %~dp0..\
+mkdir project
+cd project
+git init
+git remote add li  li:li/project.git
+git remote add lcj  lcj:li/project.git
+
+
+cd %~dp0..\
+mkdir gitcmd
+cd gitcmd
+git init
+git remote add li  li:li/gitcmd.git
+git remote add github  github:LiCijun/gitcmd.git
+git remote add lcj  lcj:li/gitcmd.git
+
+cd %~dp0..\
+mkdir CSG_Doc
+cd CSG_Doc
+git init
+git remote add li  li:li/CSG_Doc.git
+git remote add KMT  kmt:CSG_Doc.git
+git remote add lcj  lcj:li/CSG_Doc.git
+
+
+
 cd %~dp0..\
 mkdir UHF
 cd UHF
