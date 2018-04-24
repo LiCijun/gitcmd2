@@ -944,12 +944,6 @@ git remote add li  li:li/diskinfo.git
 git remote add github  github:LiCijun/diskinfo.git
 git remote add lcj  lcj:li/diskinfo.git
 
-cd %~dp0..\
-
-mkdir gitignore
-cd gitignore
-git init
-git remote add  github:github/gitignore.git 
 
  
 
@@ -1379,12 +1373,7 @@ git remote add li  li:li/testmethod.git
 git remote add lcj  lcj:li/testmethod.git
 git remote add KMT  kmt:testmethod.git
 
-cd %~dp0..\
-mkdir PMCWebService
-cd PMCWebService
-git init
-git remote add li  li:li/PMCWebService.git
-git remote add lcj  lcj:li/PMCWebService.git
+
 
 cd %~dp0..\
 mkdir OpenNETCF.IO.Serial
@@ -1770,13 +1759,7 @@ git remote add li  li:li/AndroidHHUdoc.git
 git remote add KMT  kmt:AndroidHHUdoc.git
 git remote add lcj  lcj:li/AndroidHHUdoc.git
 
-cd %~dp0..\
-mkdir Eclipse
-cd Eclipse
-git init
-git remote add li  li:li/Eclipse.git
-git remote add KMT  kmt:Eclipse.git
-git remote add lcj  lcj:li/Eclipse.git
+
 
 
 cd %~dp0..\
@@ -1855,13 +1838,6 @@ git remote add KMT  kmt:Android.Meter645.git
 git remote add lcj  lcj:li/Android.Meter645.git
 
 
-cd %~dp0..\
-mkdir  Android.DeviceInfo
-cd Android.DeviceInfo
-git init
-git remote add li  li:li/Android.DeviceInfo.git
-git remote add KMT  kmt:Android.DeviceInfo.git
-git remote add lcj  lcj:li/Android.DeviceInfo.git
 
 cd %~dp0..\
 mkdir Android.Meter

@@ -25,6 +25,73 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------  
 @echo off
 
+cd %~dp0..\
+mkdir  Android.DeviceInfo
+cd Android.DeviceInfo
+git init
+git remote add li  li:li/Android.DeviceInfo.git
+git remote add KMT  kmt:Android.DeviceInfo.git
+git remote add lcj  lcj:li/Android.DeviceInfo.git
+
+
+
+cd %~dp0..\
+mkdir UHF-ZXW
+cd UHF-ZXW
+git init
+git remote add li  li:li/UHF-ZXW.git
+git remote add KMT  kmt:UHF-ZXW.git
+git remote add lcj  lcj:li/UHF-ZXW.git
+
+cd %~dp0..\
+mkdir workspaceSDK
+cd workspaceSDK
+git init
+git remote add li  li:li/workspaceSDK.git
+git remote add lcj  lcj:li/workspaceSDK.git
+
+
+cd %~dp0..\
+mkdir AndRoidHHUNW
+cd AndRoidHHUNW
+git init
+git remote add li  li:li/AndRoidHHUNW.git
+git remote add KMT  kmt:AndRoidHHUNW.git
+git remote add lcj  lcj:li/AndRoidHHUNW.git
+
+cd %~dp0..\
+mkdir Eclipse
+cd Eclipse
+git init
+git remote add li  li:li/Eclipse.git
+git remote add KMT  kmt:Eclipse.git
+git remote add lcj  lcj:li/Eclipse.git
+
+cd %~dp0..\
+mkdir AndRoidHHUv2
+cd AndRoidHHUv2
+git init
+git remote add li  li:li/AndRoidHHUv2.git
+git remote add KMT  kmt:AndRoidHHUv2.git
+git remote add lcj  lcj:li/AndRoidHHUv2.git
+
+
+
+cd %~dp0..\
+mkdir eomfront
+cd eomfront
+git init
+git remote add li  li:li/eomfront.git
+git remote add KMT  kmt:eomfront.git
+git remote add lcj  lcj:li/eomfront.git
+
+
+cd %~dp0..\
+mkdir gitignore
+cd gitignore
+git init
+git remote add github github:github/gitignore.git 
+
 
 cd %~dp0..\
 mkdir project
@@ -50,7 +117,12 @@ git remote add li  li:li/CSG_Doc.git
 git remote add KMT  kmt:CSG_Doc.git
 git remote add lcj  lcj:li/CSG_Doc.git
 
-
+cd %~dp0..\
+mkdir PMCWebService
+cd PMCWebService
+git init
+git remote add li  li:li/PMCWebService.git
+git remote add lcj  lcj:li/PMCWebService.git
 
 cd %~dp0..\
 mkdir UHF
@@ -119,7 +191,6 @@ mkdir LiKey
 cd LiKey
 git init
 git remote add li  li:li/LiKey.git
-git remote add KMT  kmt:LiKey.git
 git remote add lcj  lcj:li/LiKey.git
 git remote add github  github:LiCijun/LiKey.git
 

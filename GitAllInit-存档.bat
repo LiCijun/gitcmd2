@@ -393,6 +393,7 @@ git remote add KMT  kmt:BeiJingExpressDelivery.git
 git remote add lcj  lcj:li/BeiJingExpressDelivery.git
 
 
+
 cd %~dp0..\
 mkdir Thunderbird
 cd Thunderbird
