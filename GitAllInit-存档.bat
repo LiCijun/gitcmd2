@@ -66,6 +66,16 @@ git remote add li  li:li/xianocx.git
 git remote add KMT  kmt:xianocx.git 
 git remote add lcj  lcj:li/xianocx.git
 
+
+cd %~dp0..\
+mkdir Eclipse
+cd Eclipse
+git init
+git remote add li  li:li/Eclipse.git
+git remote add KMT  kmt:Eclipse.git
+git remote add lcj  lcj:li/Eclipse.github
+
+
 cd %~dp0..\
 mkdir DeYangRS485
 cd DeYangRS485

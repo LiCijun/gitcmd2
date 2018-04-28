@@ -24,21 +24,32 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"  
 :--------------------------------------  
 @echo off
-cd %~dp0..\
 
+cd %~dp0..\
 mkdir VS2017
 cd VS2017
 git init
 git remote add li  li:li/VS2017.git
 git remote add lcj  lcj:li/VS2017.git
 
+
+cd %~dp0..\
+mkdir workspaceSDK
+cd workspaceSDK
+git init
+git remote add li  li:li/workspaceSDK.git
+git remote add lcj  lcj:li/workspaceSDK.git
+
+
+
+cd %~dp0..\
 mkdir SourceInsight
 cd SourceInsight
 git init
 git remote add li  li:li/SourceInsight.git
 git remote add lcj  lcj:li/SourceInsight.git
 
-
+cd %~dp0..\
 mkdir UHF_MCU
 cd UHF_MCU
 git init
@@ -87,13 +98,7 @@ git remote add li  li:li/AndRoidHHUNW.git
 git remote add KMT  kmt:AndRoidHHUNW.git
 git remote add lcj  lcj:li/AndRoidHHUNW.git
 
-cd %~dp0..\
-mkdir Eclipse
-cd Eclipse
-git init
-git remote add li  li:li/Eclipse.git
-git remote add KMT  kmt:Eclipse.git
-git remote add lcj  lcj:li/Eclipse.git
+
 
 cd %~dp0..\
 mkdir AndRoidHHUv2
