@@ -620,12 +620,7 @@ git init
 git remote add lcj  lcj:ems22xx.git
 git remote add li  li:ems22xx.git
 
-cd %~dp0..\
-mkdir evc_li
-cd evc_li
-git init
-git remote add lcj  lcj:evc_li.git
-git remote add li  li:evc_li.git
+
 
 cd %~dp0..\
 mkdir example

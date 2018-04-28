@@ -24,6 +24,34 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"  
 :--------------------------------------  
 @echo off
+cd %~dp0..\
+
+mkdir VS2017
+cd VS2017
+git init
+git remote add li  li:li/VS2017.git
+git remote add lcj  lcj:li/VS2017.git
+
+mkdir SourceInsight
+cd SourceInsight
+git init
+git remote add li  li:li/SourceInsight.git
+git remote add lcj  lcj:li/SourceInsight.git
+
+
+mkdir UHF_MCU
+cd UHF_MCU
+git init
+git remote add li  li:li/UHF_MCU.git
+git remote add lcj  lcj:li/UHF_MCU.git
+git remote add KMT  kmt:UHF_MCU.git
+
+cd %~dp0..\
+mkdir evc_li
+cd evc_li
+git init
+git remote add lcj  lcj:evc_li.git
+git remote add li  li:evc_li.git
 
 cd %~dp0..\
 mkdir  Android.DeviceInfo
