@@ -1,6 +1,6 @@
 @echo off
  for /d %%s in (%~dp0..\*) do (
-echo KMT
+echo Push KMT
 cd %%s
 echo %%s
 echo.
