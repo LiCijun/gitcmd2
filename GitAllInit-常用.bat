@@ -25,6 +25,34 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------  
 @echo off
 
+
+
+cd %~dp0..\
+mkdir zhangyu
+cd zhangyu
+git init
+git remote add KMT  kmt:zhangyu.git
+git remote add lcj  lcj:li/zhangyu.git
+git remote add li  li:li/zhangyu.git
+
+cd %~dp0..\
+mkdir fss2doc
+cd fss2doc
+git init
+git remote add KMT  kmt:fss2doc.git
+git remote add lcj  lcj:li/fss2doc.git
+git remote add li  li:li/fss2doc.git
+
+
+cd %~dp0..\
+mkdir WinCE.WESAM
+cd WinCE.WESAM
+git init
+git remote add li  li:li/WinCE.WESAM.git
+git remote add lcj  lcj:li/WinCE.WESAM.git
+git remote add KMT  kmt:WinCE.WESAM.git
+
+
 cd %~dp0..\
 mkdir VS2017
 cd VS2017
@@ -429,9 +457,9 @@ mkdir pmcm
 cd pmcm
 git init
 git remote add li  li:li/pmcm.git
-git remote add KMT  kmt:pmcm.git 
 git remote add lcj  lcj:li/pmcm.git
 git remote add github  github:LiCijun/pmcm.git
+git remote remove  KMT 
 
 
 cd %~dp0..\

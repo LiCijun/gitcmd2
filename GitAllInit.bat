@@ -812,13 +812,6 @@ git remote add li  li:li/donet.git
 
 
 
-cd %~dp0..\
-mkdir fss2doc
-cd fss2doc
-git init
-git remote add KMT  kmt:fss2doc.git
-git remote add lcj  lcj:li/fss2doc.git
-git remote add li  li:li/fss2doc.git
 
 
 
