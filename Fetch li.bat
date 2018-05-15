@@ -1,6 +1,6 @@
 @echo off
  for /d %%s in (%~dp0..\*) do (
-echo origin  
+echo Fetch origin  
 cd %%s
 echo %%s
 echo.

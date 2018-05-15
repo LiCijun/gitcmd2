@@ -1,6 +1,6 @@
 @echo off
  for /d %%s in (%~dp0..\*) do (
-echo lcj
+echo Push lcj
 cd %%s
 echo %%s
 echo.

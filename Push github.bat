@@ -1,6 +1,6 @@
 @echo off
  for /d %%s in (%~dp0..\*) do (
-echo github 
+echo Push github 
 cd %%s
 echo %%s
 echo.

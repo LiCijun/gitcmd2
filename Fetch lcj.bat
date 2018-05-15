@@ -1,6 +1,6 @@
 @echo off
  for /d %%s in (%~dp0..\*) do (
-echo LCJ 
+echo Fetch LCJ 
 echo %%s
 echo.
 cd %%s
