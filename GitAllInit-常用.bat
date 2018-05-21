@@ -28,6 +28,15 @@ if '%errorlevel%' NEQ '0' (
 
 
 cd %~dp0..\
+mkdir BoxManageming
+cd BoxManageming
+git init
+git remote add KMT  kmt:BoxManageming.git
+git remote add lcj  lcj:li/BoxManageming.git
+git remote add li  li:li/BoxManageming.git
+
+
+cd %~dp0..\
 mkdir zhangyu
 cd zhangyu
 git init
