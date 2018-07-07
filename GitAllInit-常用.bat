@@ -25,6 +25,164 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------  
 @echo off
 
+cd %~dp0..\
+mkdir AndroidLib
+
+
+cd %~dp0..\
+cd AndroidLib
+mkdir  Android.BlueTooth
+cd Android.BlueTooth
+git init
+git remote add li  li:li/Android.BlueTooth.git
+git remote add KMT  kmt:Android.BlueTooth.git
+git remote add lcj  lcj:li/Android.BlueTooth.git
+
+cd %~dp0..\
+mkdir livs2012
+cd livs2012
+git init
+git remote add lcj  lcj:li/livs2012.git
+git remote add li  li:li/livs2012.git
+
+cd %~dp0..\
+mkdir AndroidSign
+cd AndroidSign
+git init
+git remote add li  li:li/AndroidSign.git
+git remote add lcj  lcj:li/AndroidSign.git
+
+cd %~dp0..\
+mkdir HHUInOne
+cd HHUInOne
+git init
+git remote add li  li:li/HHUInOne.git
+git remote add lcj  lcj:li/HHUInOne.git
+git remote add KMT  kmt:HHUInOne.git
+
+cd %~dp0..\
+mkdir WinCE.Terminal3762
+cd WinCE.Terminal3762
+git init
+git remote add li  li:li/WinCE.Terminal3762.git
+git remote add KMT  kmt:WinCE.Terminal3762.git
+git remote add lcj  lcj:li/WinCE.Terminal3762.git
+
+
+cd %~dp0..\
+mkdir sdkeyNew
+cd sdkeyNew
+git init
+git remote add li  li:li/sdkeyNew.git
+git remote add KMT  kmt:sdkeyNew.git
+git remote add lcj  lcj:li/sdkeyNew.git
+
+cd %~dp0..\
+cd AndroidLib
+mkdir Android.Convert
+cd Android.Convert
+git init
+git remote add li  li:li/Android.Convert.git
+git remote add lcj  lcj:li/Android.Convert.git
+git remote add KMT  kmt:Android.Convert.git
+
+cd %~dp0..\
+mkdir JavaLib
+cd JavaLib
+git init
+git remote add li  li:li/JavaLib.git
+git remote add lcj  lcj:li/JavaLib.git
+git remote add KMT  kmt:JavaLib.git
+
+cd %~dp0..\
+mkdir TP2000_Android
+cd TP2000_Android
+git init
+git remote add li  li:li/TP2000_Android.git
+git remote add KMT  kmt:TP2000_Android.git
+git remote add lcj  lcj:li/TP2000_Android.git
+
+cd %~dp0..\
+mkdir meter645
+cd meter645
+git init
+git remote add li  li:li/meter645.git
+git remote add KMT  kmt:meter645.git 
+git remote add lcj  lcj:li/meter645.git
+
+cd %~dp0..\
+mkdir MeterFunction
+cd MeterFunction
+git init
+git remote add li  li:li/MeterFunction.git
+git remote add KMT  kmt:MeterFunction.git 
+git remote add lcj  lcj:li/MeterFunction.git
+
+cd %~dp0..\
+mkdir TP2100_Doc
+cd TP2100_Doc
+git init
+git remote add li  li:li/TP2100_Doc.git
+git remote add KMT  kmt:TP2100_Doc.git
+git remote add lcj  lcj:li/TP2100_Doc.git
+
+
+cd %~dp0..\
+mkdir TP2100
+cd TP2100
+git init
+git remote add li  li:li/TP2100.git
+git remote add KMT  kmt:TP2100.git
+git remote add lcj  lcj:li/TP2100.git
+
+
+cd %~dp0..\
+mkdir gfwlist
+cd gfwlist
+git init
+git remote add li  li:li/gfwlist.git
+git remote add KMT  kmt:gfwlist.git
+git remote add lcj  lcj:li/gfwlist.git
+git remote add github  github:gfwlist/gfwlist.git
+
+
+
+cd %~dp0..\
+mkdir chnroutes
+cd chnroutes
+git init
+git remote add li  li:li/chnroutes.git
+git remote add KMT  kmt:chnroutes.git
+git remote add lcj  lcj:li/chnroutes.git
+git remote add github  github:jimmyxu/chnroutes.git
+
+
+
+cd %~dp0..\
+mkdir HZWQInterface
+cd HZWQInterface
+git init
+git remote add li  li:li/HZWQInterface.git
+git remote add KMT  kmt:HZWQInterface.git
+git remote add lcj  lcj:li/HZWQInterface.git
+
+
+cd %~dp0..\
+mkdir baselib
+cd baselib
+git init
+git remote add KMT  kmt:lib.git
+git remote add lcj  lcj:li/lib.git
+git remote add li  li:li/lib.git
+
+
+cd %~dp0..\
+mkdir p55
+cd p55
+git init
+git remote add li  li:li/p55.git
+git remote add KMT  kmt:p55.git
+git remote add lcj  lcj:li/p55.git
 
 
 cd %~dp0..\
@@ -479,10 +637,12 @@ git remote add li  li:li/TP2000Doc.git
 git remote add KMT  kmt:TP2000Doc.git
 git remote add lcj  lcj:li/TP2000Doc.git
 
-cd %~dp0..\
-mkdir TP2000
-cd TP2000
+c:
+mkdir AndroidConfig
+cd c:/AndroidConfig
 git init
-git remote add li  li:li/TP2000.git
-git remote add KMT  kmt:TP2000.git
-git remote add lcj  lcj:li/TP2000.git
+git remote add li  li:li/AndroidConfig.git
+git remote add KMT  kmt:AndroidConfig.git
+git remote add lcj  lcj:li/AndroidConfig.git
+
+

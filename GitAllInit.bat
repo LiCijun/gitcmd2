@@ -26,13 +26,7 @@ if '%errorlevel%' NEQ '0' (
 @echo off
 
 
-cd %~dp0..\
-mkdir TP2000_Android
-cd TP2000_Android
-git init
-git remote add li  li:li/TP2000_Android.git
-git remote add KMT  kmt:TP2000_Android.git
-git remote add lcj  lcj:li/TP2000_Android.git
+
 
 cd %~dp0..\
 mkdir DQHC
@@ -384,13 +378,7 @@ git remote add li  li:li/Android.PeripheralProtocol.git
 git remote add KMT  kmt:Android.PeripheralProtocol.git
 git remote add lcj  lcj:li/Android.PeripheralProtocol.git
 
-cd %~dp0..\
-mkdir  Android.BlueTooth
-cd Android.BlueTooth
-git init
-git remote add li  li:li/Android.BlueTooth.git
-git remote add KMT  kmt:Android.BlueTooth.git
-git remote add lcj  lcj:li/Android.BlueTooth.git
+
 
 cd %~dp0..\
 mkdir UHFTEST
@@ -458,13 +446,7 @@ git remote add li  li:li/Android.RESAM.git
 git remote add KMT  kmt:Android.RESAM.git
 git remote add lcj  lcj:li/Android.RESAM.git
 
-cd %~dp0..\
-mkdir WinCE.Terminal3762
-cd WinCE.Terminal3762
-git init
-git remote add li  li:li/WinCE.Terminal3762.git
-git remote add KMT  kmt:WinCE.Terminal3762.git
-git remote add lcj  lcj:li/WinCE.Terminal3762.git
+
 
 
 
@@ -477,13 +459,6 @@ git remote add KMT  kmt:Android.ISO7816.git
 git remote add lcj  lcj:li/Android.ISO7816.git
 
 
-cd %~dp0..\
-mkdir P55
-cd P55
-git init
-git remote add li  li:li/P55.git
-git remote add KMT  kmt:P55.git
-git remote add lcj  lcj:li/P55.git
 
 cd %~dp0..\
 mkdir P56
@@ -527,13 +502,7 @@ git remote add KMT  kmt:Android.SPI.git
 git remote add lcj  lcj:li/Android.SPI.git
 
 
-cd %~dp0..\
-mkdir HZWQInterface
-cd HZWQInterface
-git init
-git remote add li  li:li/HZWQInterface.git
-git remote add KMT  kmt:HZWQInterface.git
-git remote add lcj  lcj:li/HZWQInterface.git
+
 
 
 cd %~dp0..\
@@ -842,13 +811,7 @@ git remote add github  github:LiCijun/keygen.git
 git remote add lcj  lcj:li/keygen.git
 git remote add li  li:li/keygen.git
 
-cd %~dp0..\
-mkdir baselib
-cd baselib
-git init
-git remote add KMT  kmt:lib.git
-git remote add lcj  lcj:li/lib.git
-git remote add li  li:li/lib.git
+
 
 cd %~dp0..\
 mkdir li
@@ -858,12 +821,7 @@ git remote add github  github:LiCijun/li.git
 git remote add lcj  lcj:li/li.git
 git remote add li  li:li/li.git
 
-cd %~dp0..\
-mkdir livs2012
-cd livs2012
-git init
-git remote add lcj  lcj:li/livs2012.git
-git remote add li  li:li/livs2012.git
+
 
 
 
@@ -1128,13 +1086,7 @@ git remote add lcj  lcj:li/HHUConfigForPC.git
 
 
 
-cd %~dp0..\
-mkdir meter645
-cd meter645
-git init
-git remote add li  li:li/meter645.git
-git remote add KMT  kmt:meter645.git 
-git remote add lcj  lcj:li/meter645.git
+
 
 cd %~dp0..\
 mkdir SecUnit
@@ -1144,13 +1096,7 @@ git remote add li  li:li/SecUnit.git
 git remote add KMT  kmt:SecUnit.git 
 git remote add lcj  lcj:li/SecUnit.git
 
-cd %~dp0..\
-mkdir MeterFunction
-cd MeterFunction
-git init
-git remote add li  li:li/MeterFunction.git
-git remote add KMT  kmt:MeterFunction.git 
-git remote add lcj  lcj:li/MeterFunction.git
+
 
 cd %~dp0..\
 mkdir pmcforhhu
@@ -1266,13 +1212,7 @@ git remote add li  li:li/fssdoc.git
 git remote add lcj  lcj:li/fssdoc.git
 git remote add KMT  kmt:fssdoc.git
 
-cd %~dp0..\
-mkdir JavaLib
-cd JavaLib
-git init
-git remote add li  li:li/JavaLib.git
-git remote add lcj  lcj:li/JavaLib.git
-git remote add KMT  kmt:JavaLib.git
+
 
 cd %~dp0..\
 mkdir javaDemo
@@ -1493,13 +1433,7 @@ git init
 git remote add li  li:li/GDSDConfig.git
 git remote add lcj  lcj:li/GDSDConfig.git
 
-cd %~dp0..\
-mkdir HHUInOne
-cd HHUInOne
-git init
-git remote add li  li:li/HHUInOne.git
-git remote add lcj  lcj:li/HHUInOne.git
-git remote add KMT  kmt:HHUInOne.git
+
 
 cd %~dp0..\
 mkdir WinCE.UHF
@@ -1571,13 +1505,7 @@ git remote add li  li:li/WinCE.Convert.git
 git remote add lcj  lcj:li/WinCE.Convert.git
 git remote add KMT  kmt:WinCE.Convert.git
 
-cd %~dp0..\
-mkdir Android.Convert
-cd Android.Convert
-git init
-git remote add li  li:li/Android.Convert.git
-git remote add lcj  lcj:li/Android.Convert.git
-git remote add KMT  kmt:Android.Convert.git
+
 
 
 cd %~dp0..\
@@ -1939,22 +1867,6 @@ git remote add lcj  lcj:li/FssSafeTest.git
 
 
 
-cd %~dp0..\
-mkdir TP2100_Doc
-cd TP2100_Doc
-git init
-git remote add li  li:li/TP2100_Doc.git
-git remote add KMT  kmt:TP2100_Doc.git
-git remote add lcj  lcj:li/TP2100_Doc.git
-
-
-cd %~dp0..\
-mkdir TP2100
-cd TP2100
-git init
-git remote add li  li:li/TP2100.git
-git remote add KMT  kmt:TP2100.git
-git remote add lcj  lcj:li/TP2100.git
 
 
 cd %~dp0..\
