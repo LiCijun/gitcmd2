@@ -565,13 +565,7 @@ git remote add li  li:li/connect.git
 git remote add lcj  lcj:connect.git
 git remote add KMT  kmt:connect.git
 
-cd %~dp0..\
-mkdir demo
-cd demo
-git init
-git remote add KMT  kmt:demo.git
-git remote add lcj  lcj:demo.git
-git remote add li  li:demo.git
+
 
 
 
@@ -770,17 +764,6 @@ git init
 git remote add KMT  kmt:connector2.git
 git remote add lcj  lcj:li/connector2.git
 git remote add li  li:li/connector2.git
-
-cd %~dp0..\
-mkdir donet
-cd donet
-git init
-git remote add KMT  kmt:donet.git
-git remote add lcj  lcj:li/donet.git
-git remote add li  li:li/donet.git
-
-
-
 
 
 
@@ -986,13 +969,7 @@ git init
 git remote add li  li:li/readmeter.git
 git remote add lcj  lcj:li/readmeter.git
 
-cd %~dp0..\
-mkdir solution
-cd solution
-git init
-git remote add li  li:li/solution.git
-git remote add KMT  kmt:solution.git 
-git remote add lcj  lcj:li/solution.git
+
 
 cd %~dp0..\
 mkdir vc6

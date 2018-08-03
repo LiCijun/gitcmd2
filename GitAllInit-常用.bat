@@ -38,6 +38,50 @@ git remote add li  li:li/Android.BlueTooth.git
 git remote add KMT  kmt:Android.BlueTooth.git
 git remote add lcj  lcj:li/Android.BlueTooth.git
 
+
+cd %~dp0..\
+mkdir donet
+cd donet
+git init
+git remote add KMT  kmt:donet.git
+git remote add lcj  lcj:li/donet.git
+git remote add li  li:li/donet.git
+
+
+
+cd %~dp0..\
+mkdir demo
+cd demo
+git init
+git remote add KMT  kmt:demo.git
+git remote add lcj  lcj:demo.git
+git remote add li  li:demo.git
+
+
+cd %~dp0..\
+mkdir solution
+cd solution
+git init
+git remote add li  li:li/solution.git
+git remote add KMT  kmt:solution.git 
+git remote add lcj  lcj:li/solution.git
+
+cd %~dp0..\
+mkdir Identity_S50
+cd Identity_S50
+git init
+git remote add li  li:li/Identity_S50.git
+git remote add lcj  lcj:li/Identity_S50.git
+git remote add KMT  kmt:Identity_S50.git
+
+cd %~dp0..\
+mkdir AndroidPeripheral
+cd AndroidPeripheral
+git init
+git remote add li  li:li/AndroidPeripheral.git
+git remote add lcj  lcj:li/AndroidPeripheral.git
+git remote add KMT  kmt:AndroidPeripheral.git
+
 cd %~dp0..\
 mkdir livs2012
 cd livs2012
