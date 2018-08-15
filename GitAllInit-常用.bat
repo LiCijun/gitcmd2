@@ -38,6 +38,16 @@ git remote add li  li:li/Android.BlueTooth.git
 git remote add KMT  kmt:Android.BlueTooth.git
 git remote add lcj  lcj:li/Android.BlueTooth.git
 
+cd %~dp0..\
+mkdir AndroidSDK
+cd AndroidSDK
+git init
+git remote add li  li:li/AndroidSDK.git
+git remote add KMT  kmt:AndroidSDK.git
+git remote add lcj  lcj:li/AndroidSDK.git
+git remote add kgithub  kgithub:Keymantek/AndroidSDK.git
+
+
 
 cd %~dp0..\
 mkdir Slock
@@ -272,6 +282,7 @@ git init
 git remote add li  li:li/WinCE.WESAM.git
 git remote add lcj  lcj:li/WinCE.WESAM.git
 git remote add KMT  kmt:WinCE.WESAM.git
+
 
 
 cd %~dp0..\
