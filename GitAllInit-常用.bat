@@ -40,6 +40,16 @@ git remote add lcj  lcj:li/Android.BlueTooth.git
 
 
 cd %~dp0..\
+mkdir Slock
+cd Slock
+git init
+git remote add li  li:li/Slock.git
+git remote add KMT  kmt:Slock.git
+git remote add lcj  lcj:li/Slock.git
+
+
+
+cd %~dp0..\
 mkdir donet
 cd donet
 git init

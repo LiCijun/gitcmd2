@@ -47,6 +47,7 @@ git remote add lcj  lcj:li/SafeTest2017.git
 
 
 
+
 cd %~dp0..\
 mkdir gitApp
 cd gitApp
