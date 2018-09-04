@@ -429,14 +429,7 @@ git remote add KMT  kmt:CumulativeProtocolOneDecoder.git
 git remote add lcj  lcj:li/CumulativeProtocolOneDecoder.git
 
 
-cd %~dp0..\
-mkdir AndroidSDK
-cd AndroidSDK
-git init
-git remote add li  li:li/AndroidSDK.git
-git remote add KMT  kmt:AndroidSDK.git
-git remote add lcj  lcj:li/AndroidSDK.git
-git remote add kgithub  kgithub:Keymantek/AndroidSDK.git
+
 
 
 cd %~dp0..\
@@ -1081,7 +1074,7 @@ mkdir pmcforhhu
 cd pmcforhhu
 git init
 git remote add li  li:li/pmcforhhu.git
-git remote add KMT  kmt:pmcforhhu.git 
+git remote add KMT  kmt:pmcforhhu.git
 git remote add lcj  lcj:li/pmcforhhu.git
 
 cd %~dp0..\
