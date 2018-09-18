@@ -37,3 +37,13 @@ git remote add lcj  lcj:li/usbkms
 
 
 
+cd %~dp0..\
+mkdir  usbkmsDoc
+cd usbkmsDoc
+git init
+git remote add li  li:li/usbkmsusbkmsDoc
+git remote add cmd  cmd:usbkmsusbkmsDoc
+git remote add lcj  lcj:li/usbkmsusbkmsDoc
+
+
+
